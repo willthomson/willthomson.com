@@ -1,0 +1,16 @@
+<section class="skills">
+  <h2>{{ partial.title }}</h2>
+  {% for skilltype in partial.skilltypes %}
+    <ul>
+      {% for skill in skilltype.skills %}
+        <li>
+          {% if skill.url %}<a href="{{ skill.url }}">{% endif %}
+            {% if skill.expansion %}<abbr title="{{ skill.expansion }}">{% endif %}
+            {{ skill.name }}
+            {% if skill.expansion %}</abbr>{% endif %}
+          {% if skill.url %}</a>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</section>
