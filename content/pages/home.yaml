@@ -1,0 +1,90 @@
+$title: Home
+$path: /{root}/
+$order: -1
+description: Will Thomson's Résumé.
+
+composite_files:
+- home
+
+partials:
+- partial: hero
+  title: Will Thomson
+  subtitle: >-
+      I'm a front-end developer with many years experience in managing
+      full-stack eams and projects, running on cloud platforms and serving huge
+      amounts of traffic.
+- partial: work-experience
+  title: Work Experience
+  jobs:
+  - company: Potato
+    start_date: July 2010
+    end_date: present
+    job_title: Lead Developer
+    url: https://p.ota.to
+    responsibilities:
+    - Joined as the first employee and helped the company grow to 100+.
+    - Technical leadership on projects (full stack).
+    - Development, front-end focussed.
+    - Managed cloud-hosting of projects, mainly Google App Engine and the rest of GCP. Also experienced with AWS, Heroku and Azure.
+    - Worked with many clients, including Google, YouTube, Android, Skype, PayPal, SuperAwesome, TT International and Mount Anvil.
+    - Collaborated with other agencies such as AKQA, Mother, Toaster, MullenLowe Profero, BBH, Rehabstudio, 72andSunny, and Upperquad.
+    - Worked directly with clients, from initial introduction through scoping, estimating, build, delivery and maintenance.
+    - Assisted the new business team, including bringing in my own leads, providing feasibility consultation and writing pitches.
+    - Estimated for, and won pitches for projects up to 7 figures.
+    - Conducted hundreds of interviews.
+    - Guided the development team, forming long lasting, lightweight processes that deliver consistent high quality.
+    - Learned our clients’ internal processes and platforms, then trained and supported the development team at Potato to align with those standards, creating an unprecedented level of client/agency trust and collaboration.
+    - Provided mentoring and regular feedback sessions.
+    - Rapid prototyping, assisting our clients, and Potato in proving a concept in the shortest possible time. This has included consulting on design sprints.
+    - Frequently worked with multi-language applications and websites, sometimes supporting 40+ languages, including right-to-left
+    - Given unprecedented levels of access to a client's internal systems. Exceptional levels of trust.
+    - Worked with many Google APIs including Maps v2 and v3, Calendar, Docs, Moderator.
+    - Oversaw the delivery of our client's projects, carried out by other agencies. Checking for code and documentation quality, app resilience and carrying out the launch.
+    - Worked directly with a client's infrastructure teams to coordinate launches on their platforms, on their behalf.
+    - Worked onsite in California and New York on multiple occasions.
+    anecdotes:
+    - Led Potato’s biggest ever project team, peaking at 27 people.
+    - Single handedly built an app that reached the top 10 most visited websites on the planet on its launch day. No downtime, very few errors.
+    - Tech led projects that took the top spot on Hacker news.
+    - Visited Google offices in 7 cities.
+    - Provided emergency assistance for our client on multiple occasions to assist with a timed launch, for projects that weren't ours.
+    - Launched/updated multiple websites in real-time during a keynote speech that was being watched by millions of people, making the new content available as the speaker announced it.
+    - Updated hundreds of thousands of high-traffic web pages in a single day.
+    - Launched the first ever website on the .soy TLD
+  - company: Yahoo!
+    start_date: August 2008
+    end_date: July 2010
+    job_title: Lead Web Developer
+    url: https://yahoo.com
+    responsibilities:
+    - Hired as Flash Developer from skills learned at the BBC. Switched to Web Developer and then promoted to Lead Web Developer.
+    - Worked in the Custom Brand Experience team producing interesting and engaging experiences for Yahoo!’s highest value advertising customers, including Warner Bros. Pictures, Nissan, Volvo, Diageo, Nivea and Nikon.
+    - Took the team from being relatively unknown and detached within the business, to a position which aligned with Yahoo!’s global engineering standards. Trained the team on the wider company’s processes and ethos. This enabled our team to collaborate more, use its pre-existing platforms, and produce more robust solutions.
+    - Travelled to Bangalore to be trained on Yahoo!’s new site building platform. Returned to the UK and trained the rest of my team.
+    - Led a team of developers to produce the Yahoo! News UK election website for the 2010 elections. This was built on the aforementioned platform and was the most complex app built on it to date.
+    - Acted as technical liaison for agencies producing work for our team.
+    - Responsible for requesting new hardware for new projects, based on traffic projections, and for liaising with tech ops over releases.
+    - Member of the YDN working group, helping to organise Yahoo!’s presence at events.
+  - company: BBC
+    start_date: June 2006
+    end_date: August 2008
+    job_title: Client Side Developer
+    url: https://bbc.co.uk
+    responsibilities:
+    - Worked with editorial teams and designers to produce and maintain websites for the BBC’s higher-profile Children’s brands.
+    - Used web standards for optimised accessibility and standards compliance,.
+    - Built Flash games and applications, using XML data input to allow for easy editorial updates.
+    - Acted as technical liaison for externally commissioned projects.
+    - Worked to television transmission critical deadlines.
+    - Represented Children’s in board meetings regarding the development of iPlayer.
+    - Member of the CBeebies Accessibility working group.
+    - Contributed to commissioning for new and innovative interactive content for children.
+  - company: Serco
+    start_date: Sept 2001
+    end_date: June 2006
+    job_title: Junior Software Engineer
+    url: https://serco.com
+    responsibilities:
+    - Worked on a large bespoke asset management web application for the Royal Collection and National Trust, playing a large role in UX design decisions. Also implemented a prototype to demonstrate look and feel to the clients, which led to design conventions for a consistent user interface.
+    - Redesigned and restructured company websites (internal and external) making them easier to navigate and maintain.
+    - Design and development of an internal web application for purchase authorisation.

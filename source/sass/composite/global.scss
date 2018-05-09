@@ -1,0 +1,7 @@
+@import '../../../node_modules/reset-css/_reset'; // sass-lint:disable-line clean-import-paths
+@import '../../../node_modules/flexboxgrid-sass/flexboxgrid';
+
+@import '../common/vars';
+
+@import '../../../partials/header/header';
+@import '../../../partials/footer/footer';

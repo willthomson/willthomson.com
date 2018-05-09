@@ -1,0 +1,44 @@
+grow_version: ">=0.2.5"
+
+title: "Will Thomson"
+
+home: /content/pages/home.yaml
+
+localization:
+  default_locale: en
+
+meta:
+  google_analytics_id: ""
+  google_site_verification: ""
+  image_path: ""
+  favicon_path: /static/images/favicon.png
+  social:
+    github: willthomson
+    linkedin: thomsonw
+    twitter: willthomson
+
+preprocessors:
+- kind: gulp
+  build_task: grow-build
+
+static_dirs:
+- static_dir: /static/
+  serve_at: /static/
+- static_dir: /dist/css/
+  serve_at: /css/
+  fingerprinted: true
+- static_dir: /dist/js/
+  serve_at: /js/
+  fingerprinted: true
+
+sitemap:
+  enabled: true
+
+deployments:
+  default:
+    destination: local
+    out_dir: ~/out/
+  willthomson.com:
+    destination: s3
+    bucket: willthomson.com
+

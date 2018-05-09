@@ -1,0 +1,21 @@
+<div class="footer">
+  <div class="nav">
+    <ul class="nav__items">
+       {% if podspec.meta.social.github %}
+      <li class="nav__item">
+        <a href="https://www.github.com/{{podspec.meta.social.github}}/">GitHub</a>
+      </li>
+      {% endif %}
+      {% if podspec.meta.social.linkedin %}
+      <li class="nav__item">
+        <a href="https://www.linkedin.com/in/{{podspec.meta.social.linkedin}}/">LinkedIn</a>
+      </li>
+      {% endif %}
+      {% if podspec.meta.social.twitter %}
+      <li class="nav__item">
+        <a href="https://www.twitter.com/{{podspec.meta.social.twitter}}/">Twitter</a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
