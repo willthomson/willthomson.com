@@ -3,5 +3,11 @@
 
 @import '../common/vars';
 
+.main {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr 2fr;
+}
+
 @import '../../../partials/header/header';
 @import '../../../partials/footer/footer';

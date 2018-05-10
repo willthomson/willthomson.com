@@ -11,7 +11,7 @@ meta:
   google_analytics_id: ""
   google_site_verification: ""
   image_path: ""
-  favicon_path: /static/images/favicon.png
+  favicon_path: /static/images/favicon.jpg
   social:
     github: willthomson
     linkedin: thomsonw

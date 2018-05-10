@@ -96,3 +96,4 @@ partials:
       - name: HTML5
         url: https://www.w3.org/html/
         expansion: Hypertext Markup Language version 5
+- partial: personal-details

@@ -1,11 +1,13 @@
-<div class="hero">
-  <h1>{{partial.title}}</h1>
-  <div class="push">
-    {{partial.subtitle}}
+<section class="hero">
+  <div class="hero__content">
+    <h1>{{partial.title}}</h1>
+    <div class="intro">
+      {{partial.subtitle}}
+    </div>
+    {% if partial.cta %}
+    <div>
+      <a href="{{partial.cta.url}}" class="button">{{partial.cta.title}}</a>
+    </div>
+    {% endif %}
   </div>
-  {% if partial.cta %}
-  <div>
-    <a href="{{partial.cta.url}}" class="button">{{partial.cta.title}}</a>
-  </div>
-  {% endif %}
-</div>
+</section>

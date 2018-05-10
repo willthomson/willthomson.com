@@ -2,7 +2,6 @@
   "name": "willthomson",
   "private": true,
   "dependencies": {
-    "flexboxgrid-sass": "^8.0.5",
     "reset-css": "^3.0.0"
   },
   "devDependencies": {
