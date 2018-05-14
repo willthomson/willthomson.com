@@ -3,10 +3,51 @@
 
 @import '../common/vars';
 
+body {
+  color: $color-text;
+  font-family: $font-family-body;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-family-heading;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0.6em;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+ul {
+  margin-bottom: 50px;
+  li {
+    list-style-type: circle;
+    margin-left: 30px;
+  }
+}
+
 .main {
   display: grid;
   grid-gap: 0;
   grid-template-columns: 1fr 2fr;
+
+  section {
+    padding: 30px;
+  }
 }
 
 @import '../../../partials/header/header';
