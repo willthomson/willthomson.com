@@ -12,27 +12,27 @@ $char-offset: .3;
     max-width: 950px;
   }
 
-  h1 {
+  &__heading {
     span {
       display: inline-block;
-      position: relative;
       margin-left: 0 .12em;
+      position: relative;
 
       &::before {
         color: $color-1;
-        content: "W";
+        content: 'W';
         display: inline-block;
-        position: absolute;
         left: -.12em;
+        position: absolute;
         z-index: -1;
       }
 
       &::after {
         color: $color-2;
-        content: "W";
+        content: 'W';
         display: inline-block;
-        position: absolute;
         left: -.06em;
+        position: absolute;
         z-index: -1;
       }
     }

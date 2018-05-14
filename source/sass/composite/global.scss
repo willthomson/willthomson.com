@@ -1,6 +1,7 @@
 @import '../../../node_modules/reset-css/_reset'; // sass-lint:disable-line clean-import-paths
 
 @import '../common/vars';
+@import '../mixins/responsive';
 
 body {
   color: $color-text;
@@ -14,8 +15,8 @@ h2,
 h3 {
   font-family: $font-family-heading;
   font-weight: 400;
+  margin-bottom: .6em;
   text-transform: uppercase;
-  margin-bottom: 0.6em;
 }
 
 h1 {
@@ -33,6 +34,7 @@ h3 {
 
 ul {
   margin-bottom: 50px;
+
   li {
     list-style-type: circle;
     margin-left: 30px;
