@@ -11,13 +11,18 @@ $char-offset: .3;
   z-index: 0;
 
   &__content {
-    margin: 150px auto;
+    margin: 70px auto;
     max-width: 950px;
     position: relative;
     z-index: 1;
   }
 
   &__heading {
+    @include respond-to(largephone) {
+      font-size: 70px;
+    }
+    font-size: 50px;
+
     span {
       display: inline-block;
       margin-left: 0 .12em;
