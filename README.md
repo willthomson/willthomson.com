@@ -1,43 +1,35 @@
-# Project name
+# willthomson.com
 
-A short introduction to your project could go here. This README outlines the details of collaborating on this Grow website.
+Will Thomson's Résumé site. Built using [Grow](https://grow.io).
+
+This README outlines the details of collaborating on this Grow website.
 
 ## Prerequisites
 
-At a minimum, you will need the following tools installed:
+1. Git
+1. Python 2
+1. npm
+1. Grow `curl https://install.growsdk.org | bash`
+1. Gulp
 
-1. [Git](http://git-scm.com/)
-2. [Grow](https://grow.io)
+## Setup
 
-If you do not have Grow, you can install it using:
-
-```
-curl https://install.growsdk.org | bash
-```
+1. Clone this repository
+1. `cd` into the root directory
+1. `grow install`
 
 ## Running the development server
 
-Prior to starting the development server, you may have to install dependencies used by your project. The `grow install` command walks you through this and tries to set up your environment for you.
-
-The `grow run` command starts your development server. You can make changes to your project files and refresh to see them reflected immediately.
-
-```
-grow install
-grow run
-```
+`grow run`
 
 ## Building
 
-You can use the `grow build` command to build your whole site to the `build` directory. This is a good way to test and verify the generated code.
+The `grow build` command can be used to build the whole site to the `build`
+directory. This is a good way to test and verify the generated code locally.
 
-```
-grow build
-```
+## Deploying
 
-## Staging
+`grow deploy willthomson.com --re-route`
 
-Once you are ready to share your changes with your team, you can stage your workspace to an access-controlled web server. Running the below command will build your site and deploy it, and then provide you with a link to the staging environment.
-
-```
-grow stage
-```
+Note: HTML minification uses an experimental feature of Grow. For now, the
+`--re-route` flag is required in order to run the extension.
