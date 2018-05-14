@@ -46,7 +46,7 @@ ul {
   @include respond-to(tablet) {
     display: grid;
     grid-gap: 0;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 350px;
     grid-template-rows: auto auto auto 1fr;
   }
 

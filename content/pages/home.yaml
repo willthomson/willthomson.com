@@ -104,4 +104,7 @@ partials:
         url: https://www.w3.org/html/
         expansion: Hypertext Markup Language version 5
 - partial: personal-details
+  title: Personal Details
+  profile_pic: /static/images/avatar.jpg
 - partial: interests
+  title: Interests
