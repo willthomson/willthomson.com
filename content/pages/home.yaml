@@ -13,6 +13,9 @@ partials:
       I'm a front-end developer with many years experience in managing
       full-stack teams and projects, running on cloud platforms and serving huge
       amounts of traffic.
+- partial: personal-details
+  title: Personal Details
+  profile_pic: /static/images/avatar.jpg
 - partial: work-experience
   title: Work Experience
   jobs:
@@ -103,8 +106,5 @@ partials:
       - name: HTML5
         url: https://www.w3.org/html/
         expansion: Hypertext Markup Language version 5
-- partial: personal-details
-  title: Personal Details
-  profile_pic: /static/images/avatar.jpg
 - partial: interests
   title: Interests

@@ -7,6 +7,7 @@
 
     background-color: $color-3;
     padding-top: 0;
+    text-align: center;
     z-index: 1;
 
     &__heading {
@@ -14,11 +15,15 @@
     }
 
     &__picture {
+      @include respond-to(tablet) {
+        width: 70%;
+      }
+
       border-radius: 50%;
       border: 5px solid $color-3;
       box-sizing: border-box;
-      margin: -50px 15% 30px;
-      width: 70%;
+      margin: -50px 0 30px;
+      width: 200px;
     }
 
     &__social {
