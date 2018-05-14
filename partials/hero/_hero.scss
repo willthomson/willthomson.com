@@ -1,15 +1,20 @@
 $char-offset: .3;
 
 .hero {
+  @include respond-to(tablet) {
+    grid-column: 1 / 3;
+  }
+
   background-color: $color-5;
   color: $color-text-light;
-  grid-column: 1 / 3;
   text-align: center;
   z-index: 0;
 
   &__content {
     margin: 150px auto;
     max-width: 950px;
+    position: relative;
+    z-index: 1;
   }
 
   &__heading {

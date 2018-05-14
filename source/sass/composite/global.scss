@@ -1,6 +1,7 @@
 @import '../../../node_modules/reset-css/_reset'; // sass-lint:disable-line clean-import-paths
 
 @import '../common/vars';
+
 @import '../mixins/responsive';
 
 body {
@@ -42,14 +43,15 @@ ul {
 }
 
 .main {
-  display: grid;
-  grid-gap: 0;
-  grid-template-columns: 1fr 2fr;
+  @include respond-to(tablet) {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 2fr;
+  }
 
   section {
     padding: 30px;
   }
 }
 
-@import '../../../partials/header/header';
 @import '../../../partials/footer/footer';
