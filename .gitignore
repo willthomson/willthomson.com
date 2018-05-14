@@ -1,6 +1,7 @@
 .DS_Store
 .depcache.json
 dist
+extensions
 build
 node_modules
 bower_components
