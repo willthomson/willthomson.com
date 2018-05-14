@@ -52,12 +52,6 @@ var webpackProdConfig = extend({
   mode: 'production',
 }, webpackConfig);
 
-gulp.task('clean', function () {
-  return gulp.src('dist', { read: false })
-    .pipe(clean());
-});
-
-
 gulp.task('compile-js', function() {
   return gulp.src(config.JS_SOURCES)
       .pipe(webpackStream(
@@ -97,6 +91,6 @@ gulp.task('watch-sass', function() {
   gulp.watch(config.SASS_SOURCES, ['compile-sass']);
 });
 
-gulp.task('build', ['clean', 'compile-js', 'compile-sass']);
-gulp.task('grow-build', ['clean', 'compile-js', 'compile-sass']);
-gulp.task('default', ['clean', 'compile-js', 'compile-sass', 'watch-js', 'watch-sass']);
+gulp.task('build', ['compile-js', 'compile-sass']);
+gulp.task('grow-build', ['compile-js', 'compile-sass']);
+gulp.task('default', ['compile-js', 'compile-sass', 'watch-js', 'watch-sass']);
