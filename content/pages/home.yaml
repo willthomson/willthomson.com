@@ -8,10 +8,10 @@ composite_files:
 
 partials:
 - partial: hero
-  title: Will Thomson
+  title: <span>W</span>ill Thomson
   subtitle: >-
       I'm a front-end developer with many years experience in managing
-      full-stack eams and projects, running on cloud platforms and serving huge
+      full-stack teams and projects, running on cloud platforms and serving huge
       amounts of traffic.
 - partial: work-experience
   title: Work Experience
@@ -85,9 +85,16 @@ partials:
     job_title: Junior Software Engineer
     url: https://serco.com
     responsibilities:
-    - Worked on a large bespoke asset management web application for the Royal Collection and National Trust, playing a large role in UX design decisions. Also implemented a prototype to demonstrate look and feel to the clients, which led to design conventions for a consistent user interface.
-    - Redesigned and restructured company websites (internal and external) making them easier to navigate and maintain.
-    - Design and development of an internal web application for purchase authorisation.
+    - Worked on a large bespoke asset management web application for the
+      <a href="https://www.royalcollection.org.uk/">Royal Collection</a> and
+      <a href="https://www.nationaltrust.org.uk/">National Trust</a>, playing a
+      large role in UX design decisions. Also implemented a prototype to
+      demonstrate look and feel to the clients, which led to design conventions
+      for a consistent user interface.
+    - Redesigned and restructured company websites (internal and external)
+      making them easier to navigate and maintain.
+    - Designed and developed an internal web application for purchase
+      authorisation.
 - partial: skills
   title: Skills
   skilltypes:

@@ -5,7 +5,7 @@
     {% if job.responsibilities %}
       <ul>
         {% for responsibility in job.responsibilities %}
-          <li>{{ responsibility }}</li>
+          <li>{{ responsibility|safe }}</li>
         {% endfor %}
       </ul>
     {% endif %}
