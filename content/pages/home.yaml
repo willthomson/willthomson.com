@@ -106,5 +106,62 @@ partials:
       - name: HTML5
         url: https://www.w3.org/html/
         expansion: Hypertext Markup Language version 5
+    - type: Templating
+      skills:
+      - name: Jinja2
+        url: http://jinja.pocoo.org/
+      - name: Django templates
+        url: https://docs.djangoproject.com/en/1.11/topics/templates/#the-django-template-language
+      - name: Nunjucks
+        url: https://mozilla.github.io/nunjucks/
+    - type: Styling
+      skills:
+      - name: CSS3
+        url: https://www.w3.org/Style/CSS/
+        expansion: Cascading Style Sheets Level 3
+      - name: Sass
+        url: https://sass-lang.com/
+        expansion: Syntactically awesome style sheets
+      - name: Less.js
+        url: http://lesscss.org/
+        expansion: Leaner Style Sheets
+    - type: Scripting
+      skills:
+      - name: ES5
+        url: https://www.ecma-international.org/ecma-262/5.1/
+        expansion: ECMAScript Edition 5.1
+      - name: ES2015 (ES6)
+        url: https://www.ecma-international.org/ecma-262/6.0/
+        expansion: ECMAScript Edition 6
+      - name: TypeScript
+        url: https://www.typescriptlang.org/
+      - name: AngularJS
+        url: https://angularjs.org/
+      - name: Angular
+        url: https://angular.io/
+      - name: React
+        url: https://reactjs.org/
+    - type: Static site generators
+      skills:
+      - name: Grow
+        url: https://grow.io/
+      - name: Jekyll
+        url: https://jekyllrb.com/
+    - type: Task runners/preprocessors
+      skills:
+      - name: Gulp
+        url: https://gulpjs.com/
+      - name: webpack
+        url: https://webpack.js.org/
+      - name: Grunt
+        url: https://gruntjs.com/
+    - type: Package managers
+      skills:
+      - name: npm
+        url: https://www.npmjs.com/
+      - name: bower
+        url: https://bower.io/
+      - name: yarn
+        url: https://yarnpkg.com/en/
 - partial: interests
   title: Interests

@@ -4,5 +4,21 @@
     grid-row: 3;
   }
 
+  .skills__list {
+    list-style: none;
+  }
+
+  .skills__skill-list,
+  .skills__skill {
+    display: inline;
+    list-style: none;
+    margin: 0;
+  }
+
+  .skills__skill-type {
+    list-style: none;
+    margin: 0;
+  }
+
   background-color: $color-3;
 }

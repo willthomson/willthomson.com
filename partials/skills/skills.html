@@ -1,16 +1,22 @@
-<section class="skills">
-  <h2>{{ partial.title }}</h2>
-  {% for skilltype in partial.skilltypes %}
-    <ul>
-      {% for skill in skilltype.skills %}
-        <li>
-          {% if skill.url %}<a href="{{ skill.url }}">{% endif %}
-            {% if skill.expansion %}<abbr title="{{ skill.expansion }}">{% endif %}
-            {{ skill.name }}
-            {% if skill.expansion %}</abbr>{% endif %}
-          {% if skill.url %}</a>{% endif %}
+{% if partial.skilltypes %}
+  <section class="skills">
+    <h2 class="skills__heading">{{ partial.title }}</h2>
+    <ul class="skills__list">
+    {% for skilltype in partial.skilltypes %}
+      {% if skilltype.skills %}
+        <li class="skills__skill-type">{{ skilltype.type }}:
+          <ul class="skills__skill-list">
+            {% for skill in skilltype.skills %}
+              <li class="skills__skill">
+                {% if skill.url %}<a href="{{ skill.url }}">{% endif %}
+                {% if skill.expansion %}<abbr title="{{ skill.expansion }}">{% endif %}{{ skill.name }}{% if skill.expansion %}</abbr>{% endif %}
+                {% if skill.url %}</a>{% endif %}{{ "," if not loop.last }}
+              </li>
+            {% endfor %}
+          </ul>
         </li>
-      {% endfor %}
+      {% endif %}
+    {% endfor %}
     </ul>
-  {% endfor %}
-</section>
+  </section>
+{% endif %}

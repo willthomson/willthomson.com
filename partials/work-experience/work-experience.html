@@ -1,11 +1,11 @@
-<section class="section work-experience">
-  <h2>{{ partial.title }}</h2>
+<section class="work-experience">
+  <h2 class="work-experience__heading">{{ partial.title }}</h2>
   {% for job in partial.jobs %}
-    <h3>{{ job.company }}: {{ job.job_title }} - {{ job.start_date }}–{{ job.end_date}}</h3>
+    <h3 class="work-experience__jobs">{{ job.company }}: {{ job.job_title }} - {{ job.start_date }}–{{ job.end_date}}</h3>
     {% if job.responsibilities %}
-      <ul>
+      <ul class="work-experience__responsibilities">
         {% for responsibility in job.responsibilities %}
-          <li>{{ responsibility|safe }}</li>
+          <li class="work-experience__responsibility">{{ responsibility | safe }}</li>
         {% endfor %}
       </ul>
     {% endif %}
