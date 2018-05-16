@@ -8,24 +8,24 @@
 
     {% if podspec.meta.social.github %}
       <li class="personal-details__social-item">
-        <a href="https://www.github.com/{{ podspec.meta.social.github }}/"><img alt="GitHub" src="{{ g.static('/static/images/github.svg').url.path }}"></a>
+        <a title="{{ podspec.meta.social.github }} on GitHub" href="https://www.github.com/{{ podspec.meta.social.github }}/"><img alt="GitHub" src="{{ g.static('/static/images/github.svg').url.path }}"></a>
       </li>
     {% endif %}
 
     {% if podspec.meta.social.linkedin %}
       <li class="personal-details__social-item personal-details__social-item--linkedin">
-        <a href="https://www.linkedin.com/in/{{ podspec.meta.social.linkedin }}/"><img alt="LinkedIn" src="{{ g.static('/static/images/linkedin.svg').url.path }}"></a>
+        <a title="{{ podspec.meta.social.linkedin }} on LinkedIn" href="https://www.linkedin.com/in/{{ podspec.meta.social.linkedin }}/"><img alt="LinkedIn" src="{{ g.static('/static/images/linkedin.svg').url.path }}"></a>
       </li>
     {% endif %}
 
     {% if podspec.meta.social.twitter %}
       <li class="personal-details__social-item">
-        <a href="https://www.twitter.com/{{ podspec.meta.social.twitter }}/"><img alt="Twitter" src="{{ g.static('/static/images/twitter.svg').url.path }}"></a>
+        <a title="@{{ podspec.meta.social.twitter }} on Twitter" href="https://www.twitter.com/{{ podspec.meta.social.twitter }}/"><img alt="Twitter" src="{{ g.static('/static/images/twitter.svg').url.path }}"></a>
       </li>
     {% endif %}
 
     <li class="personal-details__social-item">
-      <a href="mailto:will.thomson+willthomson.com@gmail.com">
+      <a title="Email" href="mailto:will.thomson+willthomson.com@gmail.com">
         <img alt="Email" src="{{ g.static('/static/images/email.svg').url.path }}">
       </a>
     </li>
