@@ -14,10 +14,10 @@ https://github.com/willthomson/willthomson.com
     <meta charset="utf-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     {% if podspec.meta.google_site_verification %}
-    <meta name="google-site-verification" content="{{podspec.meta.google_site_verification}}">
+    <meta name="google-site-verification" content="{{ podspec.meta.google_site_verification }}">
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, height=device-height">
-    <title>{% if doc.title %}{{doc.title}} – {% endif %}{{podspec.title}}</title>
+    <title>{% if doc.title %}{{ doc.title }} – {% endif %}{{ podspec.title }}</title>
     {% if podspec.meta.image %}
       <meta property="og:image" content="{{g.static(podspec.meta.image).url}}">
     {% endif %}

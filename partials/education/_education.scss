@@ -1,0 +1,8 @@
+.education {
+  @include respond-to(tablet) {
+    grid-column: 2 / 3;
+    grid-row: 5;
+  }
+
+  background-color: $color-3;
+}

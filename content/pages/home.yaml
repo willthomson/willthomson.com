@@ -1,7 +1,6 @@
-$title: Home
 $path: /{root}/
 $order: -1
-description: Will Thomson's Résumé.
+description: Experienced technical lead and frontend developer based in London
 
 composite_files:
 - home
@@ -10,9 +9,9 @@ partials:
 - partial: hero
   title: <span>W</span>ill Thomson
   subtitle: >-
-      Frontend developer with many years experience in managing
-      full-stack teams and projects, running on cloud platforms and serving huge
-      amounts of traffic.
+      Frontend developer based in London with many years of experience in
+      managing full-stack teams and projects, running on cloud platforms and
+      serving huge amounts of traffic.
 - partial: personal-details
   title: Personal Details
   profile_pic: /static/images/avatar.jpg
@@ -24,6 +23,8 @@ partials:
     end_date: present
     job_title: Lead Developer
     url: https://p.ota.to/
+    logo_url: /static/images/logos/potato.svg
+    location: London
     responsibilities:
     - Joined as the first employee and helped the company grow to 100+.
     - Technical leadership on projects (full stack).
@@ -60,6 +61,8 @@ partials:
     end_date: July 2010
     job_title: Lead Web Developer
     url: https://yahoo.com/
+    logo_url: /static/images/logos/yahoo.svg
+    location: London
     responsibilities:
     - Hired as Flash Developer from skills learned at the BBC. Switched to Web Developer and then promoted to Lead Web Developer.
     - Worked in the Custom Brand Experience team producing interesting and engaging experiences for Yahoo!’s highest value advertising customers, including Warner Bros. Pictures, Nissan, Volvo, Diageo, Nivea and Nikon.
@@ -74,6 +77,8 @@ partials:
     end_date: August 2008
     job_title: Client Side Developer
     url: https://bbc.co.uk/
+    logo_url: /static/images/logos/bbc.svg
+    location: London
     responsibilities:
     - Worked with editorial teams and designers to produce and maintain websites for the BBC’s higher-profile Children’s brands.
     - Used web standards for optimised accessibility and standards compliance,.
@@ -88,6 +93,8 @@ partials:
     end_date: June 2006
     job_title: Junior Software Engineer
     url: https://serco.com
+    logo_url: /static/images/logos/serco.svg
+    location: Winfrith, Dorset
     responsibilities:
     - Worked on a large bespoke asset management web application for the
       <a href="https://www.royalcollection.org.uk/">Royal Collection</a> and
@@ -173,7 +180,7 @@ partials:
       <a href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities">GeoCities</a> and
       was hooked straight away. I thought it was incredible to have published
       something that anyone in the world could see, and made sure it was the
-      best it could be, with animated gifs, tiled backgrounds and as many
+      best it could be, with animated GIFs, tiled backgrounds and as many
       colours as possible. It wasn't long before I discovered JavaScript, and my
       first scripts were to break out of the GeoCities advertising frames
       &#128064; and to implement rollover images.</p>
@@ -192,3 +199,11 @@ partials:
       class at the <a href="https://e5bakehouse.com/">E5 Bakehouse</a>, and I've
       been baking every week since. It's an excellent introduction and
       thoroughly recommend it.
+- partial: education
+  title: Education
+  logo_url: /static/images/logos/bournemouth-university.svg
+  description: >-
+    I attended Bournemouth University on a part-time basis over a period of five
+    years, whilst working for Serco Assurance. The course started with a
+    two-year HNC in Computing, followed by a one year top-up to HND, followed by
+    a two-year top-up to BSc (Hons), for which I received a 2:1.
