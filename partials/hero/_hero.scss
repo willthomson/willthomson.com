@@ -7,11 +7,12 @@ $char-offset: .3;
 
   background-color: $color-5;
   color: $color-text-light;
+  padding: 100px 30px;
   text-align: center;
   z-index: 0;
 
   &__content {
-    margin: 70px auto;
+    margin: 0 auto;
     max-width: 950px;
     position: relative;
     z-index: 1;

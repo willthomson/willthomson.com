@@ -15,9 +15,6 @@
     }
 
     &__picture {
-      @include respond-to(tablet) {
-        width: 70%;
-      }
 
       border: 8px solid $color-3;
       border-radius: 50%;

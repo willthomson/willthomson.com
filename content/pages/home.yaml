@@ -5,13 +5,14 @@ description: Experienced technical lead and frontend developer based in London
 composite_files:
 - home
 
-partials:
-- partial: hero
+hero:
   title: <span>W</span>ill Thomson
   subtitle: >-
       Frontend developer based in London with many years of experience in
       managing full-stack teams and projects, running on cloud platforms and
       serving huge amounts of traffic.
+
+partials:
 - partial: personal-details
   title: Personal Details
   profile_pic: /static/images/avatar.jpg
