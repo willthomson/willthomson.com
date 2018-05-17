@@ -41,6 +41,10 @@
     @include respond-to(largephone) {
       display: block;
     }
+
+    @include respond-to(laptop) {
+      max-width: 150px;
+    }
   }
 
   .work-experience__responsibilities {
