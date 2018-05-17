@@ -44,4 +44,8 @@ deployments:
   willthomson.com:
     destination: s3
     bucket: willthomson.com
-
+    env:
+      name: prod
+      host: willthomson.com
+      port: 443
+      scheme: https
