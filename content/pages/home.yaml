@@ -171,6 +171,14 @@ partials:
         url: https://bower.io/
       - name: yarn
         url: https://yarnpkg.com/en/
+- partial: education
+  title: Education
+  logo_url: /static/images/logos/bournemouth-university.svg
+  description: >-
+    I attended Bournemouth University on a part-time basis over a period of five
+    years, whilst working for Serco. The course started with a two-year HNC in
+    Computing, followed by a one year top-up to HND, followed by a two-year
+    top-up to BSc (Hons), for which I received a 2:1.
 - partial: interests
   title: Interests
   interests:
@@ -199,11 +207,3 @@ partials:
       class at the <a href="https://e5bakehouse.com/">E5 Bakehouse</a>, and I've
       been baking every week since. It's an excellent introduction and
       thoroughly recommend it.
-- partial: education
-  title: Education
-  logo_url: /static/images/logos/bournemouth-university.svg
-  description: >-
-    I attended Bournemouth University on a part-time basis over a period of five
-    years, whilst working for Serco. The course started with a two-year HNC in
-    Computing, followed by a one year top-up to HND, followed by a two-year
-    top-up to BSc (Hons), for which I received a 2:1.

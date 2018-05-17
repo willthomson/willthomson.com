@@ -1,0 +1,12 @@
+@mixin anchor {
+  @content;
+  border-bottom: 1px solid transparent;
+  color: $color-text-grey;
+  text-decoration: none;
+  transition: border-bottom .5s;
+
+  &:hover,
+  &:active {
+    border-bottom: 1px solid $color-2;
+  }
+}

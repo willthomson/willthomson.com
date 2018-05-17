@@ -12,9 +12,14 @@
 
   .skills__skill-list,
   .skills__skill {
+    color: $color-text-grey;
     display: inline;
     list-style: none;
     margin: 0;
+
+    a {
+      @include anchor;
+    }
   }
 
   .skills__skill-type {

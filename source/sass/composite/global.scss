@@ -3,6 +3,7 @@
 @import '../common/vars';
 
 @import '../mixins/responsive';
+@import '../mixins/anchor';
 
 body {
   color: $color-text;
