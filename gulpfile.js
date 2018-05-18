@@ -1,16 +1,16 @@
 let babel = require('gulp-babel');
 let clean = require('gulp-clean');
-var extend = require('deep-extend');
-var fs = require('fs');
+let extend = require('deep-extend');
+let fs = require('fs');
 let gulp = require('gulp');
-var autoprefixer = require('gulp-autoprefixer');
-var path = require('path');
-var readdirRecursive = require('fs-readdir-recursive');
-var rename = require('gulp-rename');
-var sass = require('gulp-sass');
+let autoprefixer = require('gulp-autoprefixer');
+let path = require('path');
+let readdirRecursive = require('fs-readdir-recursive');
+let rename = require('gulp-rename');
+let sass = require('gulp-sass');
 let uglify = require('gulp-uglify');
 
-var config = {
+let config = {
   JS_SOURCE_DIR: './source/js/composite/',
   JS_SOURCES: [
     './partials/**/*.js',
@@ -30,8 +30,8 @@ var config = {
   SASS_OUT_DIR: './dist/css/composite/'
 };
 
-var jsFiles = readdirRecursive(config.JS_SOURCE_DIR);
-var entry = {};
+let jsFiles = readdirRecursive(config.JS_SOURCE_DIR);
+let entry = {};
 jsFiles.forEach(function (value) {
   if (value.endsWith('.js')) {
     var key = value.substring(0, value.length - 3);
@@ -49,7 +49,7 @@ gulp.task('compile-js', function() {
 });
 
 gulp.task('watch-js', () => {
-
+  gulp.watch(config.JS_SOURCES, ['compile-js']);
 });
 
 gulp.task('compile-sass', function() {
