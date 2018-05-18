@@ -1,15 +1,14 @@
-var clean = require('gulp-clean');
+let babel = require('gulp-babel');
+let clean = require('gulp-clean');
 var extend = require('deep-extend');
 var fs = require('fs');
-var gulp = require('gulp');
-var gulpAutoprefixer = require('gulp-autoprefixer');
+let gulp = require('gulp');
+var autoprefixer = require('gulp-autoprefixer');
 var path = require('path');
 var readdirRecursive = require('fs-readdir-recursive');
 var rename = require('gulp-rename');
 var sass = require('gulp-sass');
-var webpack = require('webpack');
-var webpackStream = require('webpack-stream');
-var WebpackBabiliPlugin = require("babili-webpack-plugin");
+let uglify = require('gulp-uglify');
 
 var config = {
   JS_SOURCE_DIR: './source/js/composite/',
@@ -40,34 +39,17 @@ jsFiles.forEach(function (value) {
   }
 });
 
-var webpackConfig = {
-  entry: entry,
-  mode: 'development',
-  output: {
-    path: path.resolve(__dirname, config.JS_OUT_DIR),
-    filename: '[name].min.js'
-  }
-};
-var webpackProdConfig = extend({
-  mode: 'production',
-}, webpackConfig);
-
 gulp.task('compile-js', function() {
   return gulp.src(config.JS_SOURCES)
-      .pipe(webpackStream(
-        webpackProdConfig, webpack
-      ))
-      .pipe(gulp.dest(config.JS_OUT_DIR));
+    .pipe(babel({
+      presets: ['env']
+    }))
+    .pipe(uglify())
+    .pipe(gulp.dest(config.JS_OUT_DIR));
 });
 
 gulp.task('watch-js', () => {
-  webpackConfig.watch = true;
 
-  gulp.src(config.JS_SOURCES)
-    .pipe(webpackStream(
-      webpackConfig, webpack
-    ))
-    .pipe(gulp.dest(config.JS_OUT_DIR));
 });
 
 gulp.task('compile-sass', function() {
@@ -78,7 +60,7 @@ gulp.task('compile-sass', function() {
   .pipe(rename(function(path) {
     path.basename += '.min';
   }))
-  .pipe(gulpAutoprefixer({
+  .pipe(autoprefixer({
     browsers: [
       'last 1 version',
       'last 2 iOS versions'
