@@ -16,6 +16,7 @@ partials:
 - partial: personal-details
   title: Personal Details
   profile_pic: /static/images/avatar.jpg
+  profile_pic_2x: /static/images/avatar_2x.jpg
 - partial: work-experience
   title: Work Experience
   jobs:
