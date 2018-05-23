@@ -28,36 +28,139 @@ partials:
     logo_url: /static/images/logos/potato.svg
     location: London
     responsibilities:
-    - Joined as the first employee and helped the company grow to 100+.
-    - Technical leadership on projects (full stack).
-    - Development, front-end focussed.
-    - Managed cloud-hosting of projects, mainly Google App Engine and the rest
-      of GCP. Also experienced with AWS, Heroku and Azure.
-    - Worked with many clients, including Google, YouTube, Android, Skype, PayPal, SuperAwesome, TT International and Mount Anvil.
-    - Collaborated with other agencies such as AKQA, Mother, Toaster, MullenLowe Profero, BBH, Rehabstudio, 72andSunny, and Upperquad.
-    - Worked directly with clients, from initial introduction through scoping, estimating, build, delivery and maintenance.
-    - Assisted the new business team, including bringing in my own leads, providing feasibility consultation and writing pitches.
-    - Estimated for, and won pitches for projects up to 7 figures.
-    - Conducted hundreds of interviews.
-    - Guided the development team, forming long lasting, lightweight processes that deliver consistent high quality.
-    - Learned our clients’ internal processes and platforms, then trained and supported the development team at Potato to align with those standards, creating an unprecedented level of client/agency trust and collaboration.
-    - Provided mentoring and regular feedback sessions.
-    - Rapid prototyping, assisting our clients, and Potato in proving a concept in the shortest possible time. This has included consulting on design sprints.
-    - Frequently worked with multi-language applications and websites, sometimes supporting 40+ languages, including right-to-left
-    - Given unprecedented levels of access to a client's internal systems. Exceptional levels of trust.
-    - Worked with many Google APIs including Maps v2 and v3, Calendar, Docs, Moderator.
-    - Oversaw the delivery of our client's projects, carried out by other agencies. Checking for code and documentation quality, app resilience and carrying out the launch.
-    - Worked directly with a client's infrastructure teams to coordinate launches on their platforms, on their behalf.
-    - Worked onsite in California and New York on multiple occasions.
-    anecdotes:
-    - Led Potato’s biggest ever project team, peaking at 27 people.
-    - Single handedly built an app that reached the top 10 most visited websites on the planet on its launch day. No downtime, very few errors.
-    - Tech led projects that took the top spot on Hacker news.
-    - Visited Google offices in 7 cities.
-    - Provided emergency assistance for our client on multiple occasions to assist with a timed launch, for projects that weren't ours.
-    - Launched/updated multiple websites in real-time during a keynote speech that was being watched by millions of people, making the new content available as the speaker announced it.
-    - Updated hundreds of thousands of high-traffic web pages in a single day.
-    - Launched the first ever website on the .soy TLD
+    - description: >-
+          Joined Potato as the <strong>first employee</strong> and assisted the
+          founders in building a world class development team, with quality at
+          its core.
+      details:
+      - description: Grew to 100+ (70+ developers)
+        importance: 2
+      - description: Conducted hundreds of <strong>interviews</strong>
+        importance: 2
+      - description: Guided the development team, forming long lasting,
+            <strong>lightweight processes</strong> that deliver consistent
+            <strong>high quality</strong>
+        importance: 2
+      - description: Joining a company so early required a <strong>“whatever it
+            takes”</strong> attitude, so got involved in most aspects of agency
+            operations
+        importance: 2
+      - description: Worked with many clients, including
+            <a href="https://google.com">Google</a>,
+            <a href="https://youtube.com">YouTube</a>,
+            <a href="https://android.com">Android</a>,
+            <a href="https://skype.com">Skype</a>,
+            <a href="https://paypal.com">PayPal</a>,
+            <a href="https://superawesome.tv">SuperAwesome</a>,
+            <a href="https://www.ttint.com">TT International</a> and
+            <a href="https://www.mountanvil.com">Mount Anvil</a>
+        importance: 3
+      - description: Collaborated with other agencies such as
+            <a href="https://www.akqa.com">AKQA</a>,
+            <a href="https://www.hugeinc.com">HUGE</a>,
+            <a href="http://www.motherlondon.com">Mother</a>,
+            <a href="https://toaster.co">Toaster</a>,
+            <a href="http://www.mullenloweprofero.com">MullenLowe Profero</a>,
+            <a href="http://www.bartleboglehegarty.com">
+            <abbr title="Bartle Bogle Hegarty">BBH</abbr></a>,
+            <a href="https://beta.rehab">Rehabstudio</a>,
+            <a href="https://www.72andsunny.com">72andSunny</a>, and
+            <a href="https://upperquad.com">Upperquad</a>
+        importance: 3
+    - description: >-
+          Provided <strong>technical leadership</strong> on dozens of large
+          scale projects, mainly for <a href="https://google.com">Google</a> and
+          <a href="https://android.com">Android</a>.
+      details:
+      - description: Full stack <strong>technical leadership</strong>, on
+            project teams up to 30 people
+        importance: 2
+      - description: Consulted in <a href="https://www.gv.com/sprint/">design
+            sprints</a> and other rapid <strong>prototyping</strong>
+        importance: 2
+      - description: Managed cloud-hosting of projects, mainly
+            <a href="https://cloud.google.com/appengine/">Google App Engine</a>
+            and the rest of <a href="https://cloud.google.com/">Google
+            Cloud</a>. Also experienced with <a href="https://aws.amazon.com/">
+            <abbr title="Amazon Web Services">AWS</abbr></a>,
+            <a href="https://www.heroku.com/">Heroku</a> and
+            <a href="https://azure.microsoft.com/en-gb/">Microsoft Azure</a>
+        importance: 2
+      - description: Conducted <strong>load testing</strong> and oversaw
+            launches that reached 7,000+
+            <abbr title="Queries per Second">QPS</abbr>
+        importance: 2
+      - description: Learned our clients’ internal processes and platforms, then
+            trained and supported the development team at Potato to align with
+            those standards
+        importance: 2
+      - description: Provided <strong>mentoring</strong> and regular
+            <strong>feedback</strong> sessions
+        importance: 2
+      - description: Oversaw the delivery of our client's projects, carried out
+            by other agencies. Checking for code and documentation quality,
+            app resilience and carrying out the launch
+        importance: 2
+      - description: Worked directly with a client's infrastructure teams to
+            coordinate launches on their platforms
+        importance: 3
+    - description: >-
+          <strong>Frontend development</strong>, using modern standards and
+          trends (see Skills).
+      details:
+      - description: <strong>Localisation</strong>/internationalisation to 40+
+            locales including right-to-left languages
+        importance: 2
+      - description: Worked with static site generators, Django web apps and API
+            backends
+        importance: 2
+      - description: Worked with many Google <strong>APIs</strong> including
+            Maps, Calendar, Docs and Moderator
+        importance: 2
+      - description: Given unprecedented levels of access to a client's internal
+            systems
+        importance: 3
+      - description: Worked on-site in California and New York on multiple
+            occasions
+        importance: 3
+    - description: >-
+          Assisted the <strong>new business</strong> team, including bringing in
+          my own leads, providing <strong>feasibility</strong> consultation and
+          writing <strong>pitches</strong>.
+      details:
+      - description: Initial meetings, giving in-depth introduction to Potato
+            and its
+            <a href="https://p.ota.to/blog/potato-values-how-our-work-is-done/">
+            values</a>
+        importance: 2
+      - description: Worked directly with clients, from initial introduction
+            through scoping, estimating, build, delivery and maintenance
+        importance: 2
+      - description: Created technical estimates and won pitches for projects up
+            to 7 figures
+        importance: 2
+    - description: Other achievements&#58;
+      importance: 2
+      details:
+      - description: Single-handedly built an app that reached the top 10 most
+            visited websites in the world on its launch day
+        importance: 2
+      - description: Tech led projects that took the top spot on Hacker news
+        importance: 2
+      - description: Visited Google offices in 7 cities
+        importance: 2
+      - description: Provided emergency assistance for our client on projects
+            that weren’t built by Potato
+        importance: 2
+      - description: Launched/updated multiple websites in real-time during a
+            keynote speech that was being watched by millions of people, making
+            the new content available as the speaker announced it
+        importance: 2
+      - description: Updated hundreds of thousands of high-traffic web pages in
+            a single day
+        importance: 2
+      - description: Launched the first ever website on the .soy TLD
+        importance: 2
   - company: Yahoo!
     start_date: August 2008
     end_date: July 2010
@@ -66,14 +169,34 @@ partials:
     logo_url: /static/images/logos/yahoo.svg
     location: London
     responsibilities:
-    - Hired as Flash Developer from skills learned at the BBC. Switched to Web Developer and then promoted to Lead Web Developer.
-    - Worked in the Custom Brand Experience team producing interesting and engaging experiences for Yahoo!’s highest value advertising customers, including Warner Bros. Pictures, Nissan, Volvo, Diageo, Nivea and Nikon.
-    - Took the team from being relatively unknown and detached within the business, to a position which aligned with Yahoo!’s global engineering standards. Trained the team on the wider company’s processes and ethos. This enabled our team to collaborate more, use its pre-existing platforms, and produce more robust solutions.
-    - Travelled to Bangalore to be trained on Yahoo!’s new site building platform. Returned to the UK and trained the rest of my team.
-    - Led a team of developers to produce the Yahoo! News UK election website for the 2010 elections. This was built on the aforementioned platform and was the most complex app built on it to date.
-    - Acted as technical liaison for agencies producing work for our team.
-    - Responsible for requesting new hardware for new projects, based on traffic projections, and for liaising with tech ops over releases.
-    - Member of the YDN working group, helping to organise Yahoo!’s presence at events.
+    - description: >-
+          Worked in the Custom Brand Experience team producing interesting and
+          engaging experiences for Yahoo!’s highest value advertising customers,
+          including Warner Bros. Pictures, Nissan, Volvo, Diageo, Nivea and
+          Nikon.
+      details:
+      - description: Hired as Flash Developer from skills learned at the BBC.
+            Switched to Web Developer and then promoted to Lead Web Developer.
+      - description: Took the team from being relatively unknown and detached
+            within the business, to a position which aligned with Yahoo!’s
+            global engineering standards. Trained the team on the wider
+            company’s processes and ethos. This enabled our team to collaborate
+            more, use its pre-existing platforms, and produce more robust
+            solutions.
+      - description: Travelled to Bangalore to be trained on Yahoo!’s new site
+            building platform. Returned to the UK and trained the rest of my
+            team.
+      - description: Led a team of developers to produce the Yahoo! News UK
+            election website for the 2010 elections. This was built on the
+            aforementioned platform and was the most complex app built on it to
+            date.
+      - description: Acted as technical liaison for agencies producing work for
+            our team.
+      - description: Responsible for requesting new hardware for new projects,
+            based on traffic projections, and for liaising with tech ops over
+            releases.
+      - description: Member of the YDN working group, helping to organise
+            Yahoo!’s presence at events.
   - company: BBC
     start_date: June 2006
     end_date: August 2008
@@ -82,14 +205,24 @@ partials:
     logo_url: /static/images/logos/bbc.svg
     location: London
     responsibilities:
-    - Worked with editorial teams and designers to produce and maintain websites for the BBC’s higher-profile Children’s brands.
-    - Used web standards for optimised accessibility and standards compliance,.
-    - Built Flash games and applications, using XML data input to allow for easy editorial updates.
-    - Acted as technical liaison for externally commissioned projects.
-    - Worked to television transmission critical deadlines.
-    - Represented Children’s in board meetings regarding the development of iPlayer.
-    - Member of the CBeebies Accessibility working group.
-    - Contributed to commissioning for new and innovative interactive content for children.
+    - description: >-
+          Worked with editorial teams and designers to produce and maintain
+          websites for the <abbr title="British Broadcasting Corporation">
+          BBC</abbr>’s higher-profile <a href="https://bbc.co.uk/cbeebies">
+          CBeebies</a> and <a href="https://bbc.co.uk/cbbc">CBBC</a> brands.
+      details:
+      - description: Used web standards for optimised accessibility and
+            standards compliance
+      - description: Built Flash games and applications, using XML data input to
+            allow for easy editorial updates
+      - description: Acted as technical liaison for externally commissioned
+            projects
+      - description: Worked to television transmission critical deadlines
+      - description: Represented Children’s in board meetings regarding the
+            development of <a href="https://bbc.co.uk/iplayer">iPlayer</a>
+      - description: Member of the CBeebies Accessibility working group
+      - description: Contributed to commissioning for new and innovative
+            interactive content for children.
   - company: Serco
     start_date: Sept 2001
     end_date: June 2006
@@ -98,16 +231,21 @@ partials:
     logo_url: /static/images/logos/serco.svg
     location: Winfrith, Dorset
     responsibilities:
-    - Worked on a large bespoke asset management web application for the
-      <a href="https://www.royalcollection.org.uk/">Royal Collection</a> and
-      <a href="https://www.nationaltrust.org.uk/">National Trust</a>, playing a
-      large role in UX design decisions. Also implemented a prototype to
-      demonstrate look and feel to the clients, which led to design conventions
-      for a consistent user interface.
-    - Redesigned and restructured company websites (internal and external)
-      making them easier to navigate and maintain.
-    - Designed and developed an internal web application for purchase
-      authorisation.
+    - description: Joined the company straight after completing A-Levels, and
+          worked 4 days a week whilst completing an MSc Computing degree at
+          Bournemouth University.
+      details:
+      - description: Worked on a large bespoke asset management web application
+            for the <a href="https://www.royalcollection.org.uk/">Royal
+            Collection</a> and
+            <a href="https://www.nationaltrust.org.uk/">National Trust</a>,
+            playing a large role in UX design decisions. Also implemented a
+            prototype to demonstrate look and feel to the clients, which led to
+            design conventions for a consistent user interface
+      - description: Redesigned and restructured company websites (internal and
+            external) making them easier to navigate and maintain
+      - description: Designed and developed an internal web application for
+            purchase authorisation
 - partial: skills
   title: Skills
   skilltypes:

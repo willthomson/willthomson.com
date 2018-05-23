@@ -16,7 +16,20 @@
       {% if job.responsibilities %}
         <ul class="work-experience__responsibilities">
           {% for responsibility in job.responsibilities %}
-            <li class="work-experience__responsibility">{{ responsibility | safe }}</li>
+            <li class="work-experience__responsibility">
+              <span class="work-experience__responsibility-group-description">
+                {{ responsibility.description | safe }}
+              </span>
+              {% if responsibility.details %}
+                <ul>
+                  {% for detail in responsibility.details %}
+                    <li class="work-experience__responsibility-detail work-experience__responsibility-detail--importance-{{ detail.importance }}">
+                      {{ detail.description | safe }}
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
           {% endfor %}
         </ul>
       {% endif %}

@@ -25,7 +25,6 @@
     a {
       @include anchor;
     }
-
   }
 
   .work-experience__job-location {
@@ -33,11 +32,6 @@
   }
 
   .work-experience__job-logo {
-    display: none;
-    float: right;
-    max-width: 100px;
-    padding: 0 0 20px 50px;
-
     @include respond-to(largephone) {
       display: block;
     }
@@ -45,6 +39,12 @@
     @include respond-to(laptop) {
       max-width: 140px;
     }
+
+    display: none;
+    float: right;
+    max-height: 70px;
+    max-width: 100px;
+    padding: 0 0 20px 50px;
   }
 
   .work-experience__responsibilities {
@@ -53,5 +53,15 @@
     a {
       @include anchor;
     }
+  }
+
+  .work-experience__responsibility {
+    list-style: none;
+    margin: 0 0 20px;
+  }
+
+  .work-experience__responsibility-group-description {
+    display: block;
+    margin-bottom: 20px;
   }
 }
