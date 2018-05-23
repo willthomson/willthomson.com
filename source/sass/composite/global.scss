@@ -50,6 +50,10 @@ ul {
   }
 }
 
+strong {
+  font-weight: 400;
+}
+
 .main {
   @include respond-to(tablet) {
     display: grid;
