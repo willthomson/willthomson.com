@@ -49,3 +49,20 @@ deployments:
       host: willthomson.com
       port: 443
       scheme: https
+    headers:
+    - extensions:
+      - .html
+      - .jpg
+      - .png
+      - .svg
+      - .xml
+      fields:
+      - name: Cache-Control
+        value: "max-age=3600"
+    - extensions:
+      - .css
+      - .js
+      fields:
+      - name: Cache-Control
+        value: "max-age=31536000"
+
