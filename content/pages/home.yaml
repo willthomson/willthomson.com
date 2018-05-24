@@ -140,27 +140,20 @@ partials:
             to 7 figures
         importance: 2
     - description: Other achievements&#58;
-      importance: 2
+      importance: 3
       details:
       - description: Single-handedly built an app that reached the top 10 most
             visited websites in the world on its launch day
-        importance: 2
       - description: Tech led projects that took the top spot on Hacker news
-        importance: 2
       - description: Visited Google offices in 7 cities
-        importance: 2
       - description: Provided emergency assistance for our client on projects
             that weren’t built by Potato
-        importance: 2
       - description: Launched/updated multiple websites in real-time during a
             keynote speech that was being watched by millions of people, making
             the new content available as the speaker announced it
-        importance: 2
       - description: Updated hundreds of thousands of high-traffic web pages in
             a single day
-        importance: 2
       - description: Launched the first ever website on the .soy TLD
-        importance: 2
   - company: Yahoo!
     start_date: August 2008
     end_date: July 2010
@@ -177,26 +170,33 @@ partials:
       details:
       - description: Hired as Flash Developer from skills learned at the BBC.
             Switched to Web Developer and then promoted to Lead Web Developer.
+        importance: 2
       - description: Took the team from being relatively unknown and detached
             within the business, to a position which aligned with Yahoo!’s
             global engineering standards. Trained the team on the wider
             company’s processes and ethos. This enabled our team to collaborate
             more, use its pre-existing platforms, and produce more robust
             solutions.
+        importance: 2
       - description: Travelled to Bangalore to be trained on Yahoo!’s new site
             building platform. Returned to the UK and trained the rest of my
             team.
+        importance: 2
       - description: Led a team of developers to produce the Yahoo! News UK
             election website for the 2010 elections. This was built on the
             aforementioned platform and was the most complex app built on it to
             date.
+        importance: 2
       - description: Acted as technical liaison for agencies producing work for
             our team.
+        importance: 2
       - description: Responsible for requesting new hardware for new projects,
             based on traffic projections, and for liaising with tech ops over
             releases.
+        importance: 2
       - description: Member of the YDN working group, helping to organise
             Yahoo!’s presence at events.
+        importance: 2
   - company: BBC
     start_date: June 2006
     end_date: August 2008
@@ -213,16 +213,23 @@ partials:
       details:
       - description: Used web standards for optimised accessibility and
             standards compliance
+        importance: 2
       - description: Built Flash games and applications, using XML data input to
             allow for easy editorial updates
+        importance: 2
       - description: Acted as technical liaison for externally commissioned
             projects
+        importance: 2
       - description: Worked to television transmission critical deadlines
+        importance: 2
       - description: Represented Children’s in board meetings regarding the
             development of <a href="https://bbc.co.uk/iplayer">iPlayer</a>
+        importance: 2
       - description: Member of the CBeebies Accessibility working group
+        importance: 2
       - description: Contributed to commissioning for new and innovative
             interactive content for children.
+        importance: 2
   - company: Serco
     start_date: Sept 2001
     end_date: June 2006
@@ -230,6 +237,7 @@ partials:
     url: https://serco.com
     logo_url: /static/images/logos/serco.svg
     location: Winfrith, Dorset
+    importance: 2
     responsibilities:
     - description: Joined the company straight after completing A-Levels, and
           worked 4 days a week whilst completing an MSc Computing degree at
@@ -242,10 +250,13 @@ partials:
             playing a large role in UX design decisions. Also implemented a
             prototype to demonstrate look and feel to the clients, which led to
             design conventions for a consistent user interface
+        importance: 2
       - description: Redesigned and restructured company websites (internal and
             external) making them easier to navigate and maintain
+        importance: 2
       - description: Designed and developed an internal web application for
             purchase authorisation
+        importance: 2
 - partial: skills
   title: Skills
   skilltypes:
@@ -313,7 +324,14 @@ partials:
         url: https://yarnpkg.com/en/
 - partial: education
   title: Education
-  logo_url: /static/images/logos/bournemouth-university.svg
+  qualifications:
+  - course_title: BSc (Hons) Computing
+    institution: Bournemouth University
+    grade: "2:1"
+    url: https://www1.bournemouth.ac.uk/study/courses/bsc-hons-computing
+    logo_url: /static/images/logos/bournemouth-university.svg
+    start_date: 2001
+    end_date: 2006
   description: >-
     I attended Bournemouth University on a part-time basis over a period of five
     years, whilst working for Serco. The course started with a two-year HNC in
@@ -321,6 +339,7 @@ partials:
     top-up to BSc (Hons), for which I received a 2:1.
 - partial: interests
   title: Interests
+  importance: 2
   interests:
   - name: Internet
     description: >-

@@ -14,3 +14,10 @@
     }
   }
 }
+
+.importance-1 {
+  .interests--importance-2,
+  .interests--importance-3 {
+    display: none;
+  }
+}

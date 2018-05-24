@@ -16,7 +16,7 @@
       {% if job.responsibilities %}
         <ul class="work-experience__responsibilities">
           {% for responsibility in job.responsibilities %}
-            <li class="work-experience__responsibility">
+            <li class="work-experience__responsibility{% if responsibility.importance %} work-experience__responsibility--importance-{{responsibility.importance}}{% endif %}">
               <span class="work-experience__responsibility-group-description">
                 {{ responsibility.description | safe }}
               </span>

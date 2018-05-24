@@ -1,11 +1,13 @@
 {% if partial.interests %}
   <section class="interests">
+    <div class="interests__wrap{% if partial.importance %} interests--importance-{{partial.importance}}{% endif %}">
     <h2 class="interests__heading">Interests</h2>
-    {% for interest in partial.interests %}
-      <h3 class="interests__interest-name">{{ interest.name }}</h3>
-      <div class="interests__interest-description">
-        {{ interest.description | safe }}
-      </div>
-    {% endfor %}
+      {% for interest in partial.interests %}
+        <h3 class="interests__interest-name">{{ interest.name }}</h3>
+        <div class="interests__interest-description">
+          {{ interest.description | safe }}
+        </div>
+      {% endfor %}
+    </div>
   </section>
 {% endif %}
