@@ -49,8 +49,19 @@ https://github.com/willthomson/willthomson.com
         <link href="{{ g.static(viewCssFile).url.path }}" rel="stylesheet">
       {% endif %}
     {% endfor %}
+        {% if podspec.meta.google_tagmanager_id %}
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{podspec.meta.google_tagmanager_id}}');</script>
+    {% endif %}
   </head>
   <body>
+    {% if podspec.meta.google_tagmanager_id %}
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{podspec.meta.google_tagmanager_id}}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    {% endif %}
     {% include "/partials/hero/hero.html" %}
     <div class="main">
       {% block main %}
@@ -84,16 +95,5 @@ https://github.com/willthomson/willthomson.com
         <script src="{{ g.static(viewJsFile).url.path }}"></script>
       {% endif %}
     {% endfor %}
-
-    {% if podspec.meta.google_analytics_id %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{podspec.meta.google_analytics_id}}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', '{{podspec.meta.google_analytics_id}}');
-      </script>
-    {% endif %}
   </body>
 </html>

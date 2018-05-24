@@ -8,7 +8,7 @@ localization:
   default_locale: en
 
 meta:
-  google_analytics_id: "UA-119176264-1"
+  google_tagmanager_id: "GTM-5RZQT45"
   google_site_verification: ""
   image_path: /static/images/logo.jpg
   favicon_path: /static/images/favicon.png
