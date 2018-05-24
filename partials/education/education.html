@@ -1,4 +1,16 @@
 <section class="education">
   <h2 class="education__heading">{{ partial.title }}</h2>
+  {% if partial.qualifications %}
+    <ul class="education__qualifications">
+      {% for qualification in partial.qualifications %}
+        <li class="education__qualification">
+          <img class="education__qualification-logo" src="{{ g.static(qualification.logo_url).url.path }}" alt="{{qualification.institution}}">
+          <h3 class="education__qualification-institution">{{qualification.institution}}</h3>
+          <p class="education__qualification-course"><a href="{{qualification.url}}">{{qualification.course_title}}</a> {{qualification.grade}}</p>
+          <p class="education__qualification">{{qualification.start_date}}–{{qualification.end_date}}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
   {{ partial.description }}
 </section>
