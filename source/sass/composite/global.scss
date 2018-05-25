@@ -5,6 +5,8 @@
 @import '../mixins/responsive';
 @import '../mixins/anchor';
 
+@import '../../../partials/footer/footer';
+
 body {
   background: $color-4;
   color: $color-text;
@@ -69,4 +71,4 @@ strong {
   }
 }
 
-@import '../../../partials/footer/footer';
+@import '../common/print';
