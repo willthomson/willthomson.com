@@ -1,4 +1,3 @@
-var extend = require('deep-extend');
 var fs = require('fs');
 var gulp = require('gulp');
 var gulpAutoprefixer = require('gulp-autoprefixer');
@@ -8,6 +7,8 @@ var rename = require('gulp-rename');
 var sass = require('gulp-sass');
 var webpack = require('webpack');
 var webpackStream = require('webpack-stream');
+
+var isProduction = false;
 
 var config = {
   JS_SOURCE_DIR: './source/js/composite/',
@@ -38,7 +39,16 @@ jsFiles.forEach(function (value) {
   }
 });
 
-var webpackConfig = {
+var webpackDevConfig = {
+  entry: entry,
+  mode: 'development',
+  output: {
+    path: path.resolve(__dirname, config.JS_OUT_DIR),
+    filename: '[name].min.js'
+  }
+};
+
+var webpackProdConfig = {
   entry: entry,
   mode: 'production',
   output: {
@@ -46,24 +56,25 @@ var webpackConfig = {
     filename: '[name].min.js'
   }
 };
-var webpackProdConfig = extend({
-  mode: 'production',
-}, webpackConfig);
 
 gulp.task('compile-js', function() {
+  var webpackConfig;
+  isProduction === true ? webpackConfig = webpackProdConfig : webpackConfig = webpackDevConfig;
+  console.log(isProduction)
+  console.log(webpackConfig);
   return gulp.src(config.JS_SOURCES)
       .pipe(webpackStream(
-        webpackProdConfig, webpack
+        webpackConfig, webpack
       ))
       .pipe(gulp.dest(config.JS_OUT_DIR));
 });
 
 gulp.task('watch-js', () => {
-  webpackConfig.watch = true;
+  webpackDevConfig.watch = true;
 
   gulp.src(config.JS_SOURCES)
     .pipe(webpackStream(
-      webpackConfig, webpack
+      webpackDevConfig, webpack
     ))
     .pipe(gulp.dest(config.JS_OUT_DIR));
 });
@@ -89,6 +100,10 @@ gulp.task('watch-sass', function() {
   gulp.watch(config.SASS_SOURCES, ['compile-sass']);
 });
 
+gulp.task('set-production', function () {
+  isProduction = true;
+});
+
 gulp.task('build', ['compile-js', 'compile-sass']);
-gulp.task('grow-build', ['compile-js', 'compile-sass']);
+gulp.task('grow-build', ['set-production', 'compile-js', 'compile-sass']);
 gulp.task('default', ['build', 'watch-js', 'watch-sass']);
