@@ -1,16 +1,15 @@
-let babel = require('gulp-babel');
-let clean = require('gulp-clean');
-let extend = require('deep-extend');
-let fs = require('fs');
-let gulp = require('gulp');
-let autoprefixer = require('gulp-autoprefixer');
-let path = require('path');
-let readdirRecursive = require('fs-readdir-recursive');
-let rename = require('gulp-rename');
-let sass = require('gulp-sass');
-let uglify = require('gulp-uglify');
+var extend = require('deep-extend');
+var fs = require('fs');
+var gulp = require('gulp');
+var gulpAutoprefixer = require('gulp-autoprefixer');
+var path = require('path');
+var readdirRecursive = require('fs-readdir-recursive');
+var rename = require('gulp-rename');
+var sass = require('gulp-sass');
+var webpack = require('webpack');
+var webpackStream = require('webpack-stream');
 
-let config = {
+var config = {
   JS_SOURCE_DIR: './source/js/composite/',
   JS_SOURCES: [
     './partials/**/*.js',
@@ -30,8 +29,8 @@ let config = {
   SASS_OUT_DIR: './dist/css/composite/'
 };
 
-let jsFiles = readdirRecursive(config.JS_SOURCE_DIR);
-let entry = {};
+var jsFiles = readdirRecursive(config.JS_SOURCE_DIR);
+var entry = {};
 jsFiles.forEach(function (value) {
   if (value.endsWith('.js')) {
     var key = value.substring(0, value.length - 3);
@@ -39,17 +38,34 @@ jsFiles.forEach(function (value) {
   }
 });
 
+var webpackConfig = {
+  entry: entry,
+  mode: 'production',
+  output: {
+    path: path.resolve(__dirname, config.JS_OUT_DIR),
+    filename: '[name].min.js'
+  }
+};
+var webpackProdConfig = extend({
+  mode: 'production',
+}, webpackConfig);
+
 gulp.task('compile-js', function() {
   return gulp.src(config.JS_SOURCES)
-    .pipe(babel({
-      presets: ['env']
-    }))
-    .pipe(uglify())
-    .pipe(gulp.dest(config.JS_OUT_DIR));
+      .pipe(webpackStream(
+        webpackProdConfig, webpack
+      ))
+      .pipe(gulp.dest(config.JS_OUT_DIR));
 });
 
 gulp.task('watch-js', () => {
-  gulp.watch(config.JS_SOURCES, ['compile-js']);
+  webpackConfig.watch = true;
+
+  gulp.src(config.JS_SOURCES)
+    .pipe(webpackStream(
+      webpackConfig, webpack
+    ))
+    .pipe(gulp.dest(config.JS_OUT_DIR));
 });
 
 gulp.task('compile-sass', function() {
@@ -60,7 +76,7 @@ gulp.task('compile-sass', function() {
   .pipe(rename(function(path) {
     path.basename += '.min';
   }))
-  .pipe(autoprefixer({
+  .pipe(gulpAutoprefixer({
     browsers: [
       'last 1 version',
       'last 2 iOS versions'
@@ -75,4 +91,4 @@ gulp.task('watch-sass', function() {
 
 gulp.task('build', ['compile-js', 'compile-sass']);
 gulp.task('grow-build', ['compile-js', 'compile-sass']);
-gulp.task('default', ['compile-js', 'compile-sass', 'watch-js', 'watch-sass']);
+gulp.task('default', ['build', 'watch-js', 'watch-sass']);
