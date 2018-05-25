@@ -68,15 +68,15 @@
 
 .importance-1 {
   .work-experience {
+    .work-experience__responsibility,
+    .work-experience__responsibility-group-description {
+      display: inline;
+    }
+
     .work-experience__responsibility--importance-3,
     .work-experience__responsibility-detail--importance-2,
     .work-experience__responsibility-detail--importance-3 {
       display: none;
-    }
-
-    .work-experience__responsibility,
-    .work-experience__responsibility-group-description {
-      display: inline;
     }
   }
 }
