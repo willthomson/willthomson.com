@@ -29,7 +29,4 @@ directory. This is a good way to test and verify the generated code locally.
 
 ## Deploying
 
-`grow deploy willthomson.com --re-route`
-
-Note: HTML minification uses an experimental feature of Grow. For now, the
-`--re-route` flag is required in order to run the extension.
+`grow deploy willthomson.com`
