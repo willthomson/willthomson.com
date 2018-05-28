@@ -2,3 +2,10 @@
   background: $color-5;
   height: 100px;
 }
+
+
+@media print {
+  .footer {
+    display: none;
+  }
+}

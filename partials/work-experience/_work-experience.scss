@@ -10,6 +10,11 @@
     height: auto;
     overflow: hidden;
     transition: height .3s ease-out;
+    margin-bottom: 50px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   .work-experience__job-heading,
@@ -48,8 +53,6 @@
   }
 
   .work-experience__responsibilities {
-    margin-bottom: 50px;
-
     a {
       @include anchor;
     }

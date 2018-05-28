@@ -58,12 +58,14 @@ strong {
 
 .main {
   @include respond-to(tablet) {
-    display: grid;
-    grid-gap: 0;
-    grid-template-columns: 2fr 350px;
-    grid-template-rows: auto auto auto auto 1fr;
-    margin: 0 auto;
-    max-width: 1200px;
+    @media screen {
+      display: grid;
+      grid-gap: 0;
+      grid-template-columns: 2fr 350px;
+      grid-template-rows: auto auto auto auto 1fr;
+      margin: 0 auto;
+      max-width: 1200px;
+    }
   }
 
   section {
@@ -71,4 +73,21 @@ strong {
   }
 }
 
-@import '../common/print';
+@media print {
+
+  body {
+    background: transparent;
+    font-size: 13px;
+  }
+
+  a,
+  abbr {
+    color: inherit !important;
+    text-decoration: none;
+  }
+
+  .main section {
+    padding: 30px 0;
+    background: transparent;
+  }
+}

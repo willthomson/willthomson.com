@@ -36,11 +36,58 @@
       img {
         height: 35px;
       }
+
+      span {
+        display: none;
+      }
     }
 
     // Compensate for the mandatory trademark character.
     &__social-item--linkedin {
       margin-right: 0;
+    }
+  }
+}
+
+@media print {
+  .main {
+    .personal-details {
+      position: absolute;
+      background: transparent;
+      top: 0;
+      right: 0;
+      width: 250px;
+    }
+
+    .personal-details__picture {
+      display: none;
+    }
+
+    .personal-details__social {
+      margin-top: 90px;
+    }
+
+    .personal-details__social-item {
+      display: block;
+      font-size: 90%;
+      margin: 0 0 10px 20px;
+      text-align: left;
+
+      img {
+        height: 25px;
+        margin-right: 8px;
+        vertical-align: middle;
+      }
+
+      &--linkedin {
+        img {
+          margin-right: 0;
+        }
+      }
+
+      span {
+        display: inline;
+      }
     }
   }
 }
