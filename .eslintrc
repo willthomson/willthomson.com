@@ -1,0 +1,6 @@
+{
+  "extends": ["strict"],
+  "env": {
+    "browser": true
+  }
+}
