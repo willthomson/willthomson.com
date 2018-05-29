@@ -8,9 +8,9 @@
 
   .work-experience__job {
     height: auto;
+    margin-bottom: 50px;
     overflow: hidden;
     transition: height .3s ease-out;
-    margin-bottom: 50px;
 
     &:last-child {
       margin-bottom: 0;
