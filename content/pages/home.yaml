@@ -19,6 +19,7 @@ partials:
   profile_pic_2x: /static/images/avatar_2x.jpg
 - partial: work-experience
   title: Work Experience
+  show_count: 3
   jobs:
   - company: Potato
     start_date: July 2010

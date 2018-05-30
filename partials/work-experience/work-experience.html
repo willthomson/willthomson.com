@@ -1,7 +1,7 @@
 <section class="work-experience">
   <h2 class="work-experience__heading">{{ partial.title }}</h2>
   {% for job in partial.jobs %}
-    <div class="work-experience__job">
+    <div class="work-experience__job{% if loop.index > partial.show_count %} work-experience__job--hidden{% endif %}">
       {% if job.logo_url %}
         <a href="{{ job.url }}">
           <img class="work-experience__job-logo" src="{{ g.static(job.logo_url).url.path }}" alt="{{ job.company }} logo">
@@ -35,4 +35,7 @@
       {% endif %}
     </div>
   {% endfor %}
+  {% if partial.jobs|length > partial.show_count %}
+    <a class="work-experience__show-more" href="#">Show more work experience</a>
+  {% endif %}
 </section>

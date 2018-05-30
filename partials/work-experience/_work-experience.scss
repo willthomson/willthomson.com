@@ -6,11 +6,19 @@
 
   background-color: $color-4;
 
+  a {
+    @include anchor;
+  }
+
   .work-experience__job {
     height: auto;
     margin-bottom: 50px;
     overflow: hidden;
     transition: height .3s ease-out;
+
+    &--hidden {
+      display: none;
+    }
 
     &:last-child {
       margin-bottom: 0;
@@ -26,10 +34,6 @@
     color: $color-text-grey;
     font-size: 90%;
     white-space: nowrap;
-
-    a {
-      @include anchor;
-    }
   }
 
   .work-experience__job-location {
@@ -88,6 +92,14 @@
   .work-experience {
     .work-experience__responsibility--importance-3,
     .work-experience__responsibility-detail--importance-3 {
+      display: none;
+    }
+  }
+}
+
+@media print {
+  .work-experience {
+    .work-experience__show-more {
       display: none;
     }
   }
