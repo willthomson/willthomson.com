@@ -12,9 +12,8 @@
 
   .work-experience__job {
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     overflow: hidden;
-    transition: height .3s ease-out;
 
     &--hidden {
       display: none;
