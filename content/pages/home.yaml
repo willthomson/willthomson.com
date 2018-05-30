@@ -24,7 +24,7 @@ partials:
   show_count: 3
   jobs:
   - company: Potato
-    start_date: July 2010
+    start_date: Jul 2010
     end_date: present
     job_title: Lead Developer
     url: https://p.ota.to/
@@ -165,8 +165,8 @@ partials:
       - description: Updated hundreds of thousands of high-traffic web pages in
             a single day
   - company: Yahoo!
-    start_date: August 2008
-    end_date: July 2010
+    start_date: Aug 2008
+    end_date: Jul 2010
     job_title: Lead Web Developer
     url: https://yahoo.com/
     logo_url: /static/images/logos/yahoo.svg
@@ -208,8 +208,8 @@ partials:
             Yahoo!’s presence at events.
         importance: 2
   - company: BBC
-    start_date: June 2006
-    end_date: August 2008
+    start_date: Jun 2006
+    end_date: Aug 2008
     job_title: Client Side Developer
     url: https://bbc.co.uk/
     logo_url: /static/images/logos/bbc.svg
@@ -245,8 +245,8 @@ partials:
             interactive content for children.
         importance: 2
   - company: Serco
-    start_date: Sept 2001
-    end_date: June 2006
+    start_date: Sep 2001
+    end_date: Jun 2006
     job_title: Junior Software Engineer
     url: https://serco.com
     logo_url: /static/images/logos/serco.svg
@@ -350,7 +350,7 @@ partials:
     I attended <a href="https://www1.bournemouth.ac.uk/">Bournemouth University
     </a> on a part-time basis over a period of five years, whilst working for
     <a href="https://serco.com">Serco</a> as a Junior Software Engineer
-    (September 2001–August 2008). The course started with a two-year HNC in
+    (Sep 2001–Jun 2006). The course started with a two-year HNC in
     Computing, followed by a one year top-up to HND, then a two-year top-up to
     BSc (Hons), for which I received a 2:1.
 - partial: interests
