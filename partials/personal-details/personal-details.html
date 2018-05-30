@@ -33,12 +33,23 @@
       </li>
     {% endif %}
 
-    <li class="personal-details__social-item">
-      <a title="Email" href="mailto:will.thomson+willthomson.com@gmail.com">
-        <img alt="Email" src="{{ g.static('/static/images/email.svg').url.path }}">
-        <span>will.thomson@gmail.com</span>
-      </a>
-    </li>
+    {% if partial.email %}
+      <li class="personal-details__social-item" data-tooltip>
+        <a title="Email" href="mailto:{{ partial.email }}">
+          <img alt="Email" src="{{ g.static('/static/images/email.svg').url.path }}">
+        </a>
+        <span class="personal-details__tooltip">{{ partial.email }}</span>
+      </li>
+    {% endif %}
+
+     {% if partial.phone %}
+      <li class="personal-details__social-item" data-tooltip>
+        <a title="Phone number" href="tel:{{ partial.phone }}">
+          <img alt="Phone" src="{{ g.static('/static/images/phone.svg').url.path }}">
+        </a>
+        <span class="personal-details__tooltip">{{ partial.phone }}</span>
+      </li>
+    {% endif %}
 
   </ul>
 

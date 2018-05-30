@@ -31,10 +31,11 @@
     &__social-item {
       display: inline-block;
       list-style: none;
-      margin: 0 10px;
+      margin: 0 8px;
+      position: relative;
 
       img {
-        height: 35px;
+        height: 32px;
       }
 
       span {
@@ -45,6 +46,42 @@
     // Compensate for the mandatory trademark character.
     &__social-item--linkedin {
       margin-right: 0;
+    }
+  }
+
+  @media screen {
+    [data-tooltip] {
+      position: relative;
+
+      .personal-details__tooltip {
+        background: $color-text;
+        border-radius: 4px;
+        color: $color-text-light;
+        content: attr(data-tooltip);
+        display: none;
+        padding: 8px;
+        position: absolute;
+        right: 0;
+        top: 38px;
+        white-space: nowrap;
+
+        &::after {
+          background: $color-text;
+          content: '';
+          height: 10px;
+          position: absolute;
+          right: 11px;
+          top: -4px;
+          transform: rotate(45deg);
+          width: 10px;
+        }
+      }
+
+      &:hover {
+        .personal-details__tooltip {
+          display: block;
+        }
+      }
     }
   }
 }
