@@ -29,9 +29,7 @@
     text-transform: none;
   }
 
-  .education__qualification-course {
-    a {
-      @include anchor;
-    }
+  a {
+    @include anchor;
   }
 }

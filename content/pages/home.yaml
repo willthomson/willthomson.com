@@ -33,7 +33,7 @@ partials:
           founders in building a world class development team, with quality at
           its core.
       details:
-      - description: Grew to 100+ (70+ developers)
+      - description: Grew from 4 to 100+ (70+ developers)
         importance: 2
       - description: Conducted hundreds of <strong>interviews</strong>
         importance: 2
@@ -41,9 +41,9 @@ partials:
             <strong>lightweight workflows</strong> that deliver consistent
             <strong>high quality</strong>
         importance: 2
-      - description: Joining a company so early required a <strong>“whatever it
-            takes”</strong> attitude, so got involved in most aspects of agency
-            operations
+      - description: Joining a company so early required a large amount of
+            <strong>multitasking across disciplines</strong>, so got involved in
+            most aspects of agency operations
         importance: 2
       - description: Worked with many clients, including
             <a href="https://google.com">Google</a>,
@@ -78,6 +78,11 @@ partials:
       - description: Consulted in <a href="https://www.gv.com/sprint/">design
             sprints</a> and other rapid <strong>prototyping</strong>
         importance: 2
+      - description: Prepared projects for security and code reivews, carried
+            out by the client's expert teams who check for XSS and other
+            vulnerabilities, documentation quality and code style guide
+            compliance.
+        importance: 2
       - description: Managed cloud-hosting of projects, mainly
             <a href="https://cloud.google.com/appengine/">Google App Engine</a>
             and the rest of <a href="https://cloud.google.com/">Google
@@ -95,7 +100,8 @@ partials:
             those standards
         importance: 2
       - description: Provided <strong>mentoring</strong> and regular
-            <strong>feedback</strong> sessions
+            <strong>feedback</strong> sessions for developers and senior
+            developers
         importance: 2
       - description: Oversaw the delivery of our client's projects, carried out
             by other agencies. Checking for code and documentation quality,
@@ -144,8 +150,10 @@ partials:
       details:
       - description: Single-handedly built an app that reached the top 10 most
             visited websites in the world on its launch day
-      - description: Tech led projects that took the top spot on Hacker news
-      - description: Visited Google offices in 7 cities
+      - description: Launched the first ever website on the .soy TLD
+      - description: Tech led projects that took the top spot on
+            <a href="https://news.ycombinator.com/">Hacker News</a>
+      - description: Worked from Google offices in 7 cities
       - description: Provided emergency assistance for our client on projects
             that weren’t built by Potato
       - description: Launched/updated multiple websites in real-time during a
@@ -153,7 +161,6 @@ partials:
             the new content available as the speaker announced it
       - description: Updated hundreds of thousands of high-traffic web pages in
             a single day
-      - description: Launched the first ever website on the .soy TLD
   - company: Yahoo!
     start_date: August 2008
     end_date: July 2010
@@ -182,7 +189,7 @@ partials:
             building platform. Returned to the UK and trained the rest of my
             team.
         importance: 2
-      - description: Led a team of developers to produce the Yahoo! News UK
+      - description: Led a team of four developers to produce the Yahoo! News UK
             election website for the 2010 elections. This was built on the
             aforementioned platform and was the most complex app built on it to
             date.
@@ -191,7 +198,7 @@ partials:
             our team.
         importance: 2
       - description: Responsible for requesting new hardware for new projects,
-            based on traffic projections, and for liaising with tech ops over
+            based on traffic projections, and for liaising with Tech Ops over
             releases.
         importance: 2
       - description: Member of the YDN working group, helping to organise
@@ -206,10 +213,13 @@ partials:
     location: London
     responsibilities:
     - description: >-
-          Worked with editorial teams and designers to produce and maintain
-          websites for the <abbr title="British Broadcasting Corporation">
-          BBC</abbr>’s higher-profile <a href="https://bbc.co.uk/cbeebies">
-          CBeebies</a> and <a href="https://bbc.co.uk/cbbc">CBBC</a> brands.
+          Worked at
+          <a href="https://en.wikipedia.org/wiki/Television_Centre,_London">
+          Television Centre</a> with editorial teams and designers to
+          produce and maintain websites for the
+          <abbr title="British Broadcasting Corporation">BBC</abbr>’s
+          higher-profile <a href="https://bbc.co.uk/cbeebies">CBeebies</a> and
+          <a href="https://bbc.co.uk/cbbc">CBBC</a> brands.
       details:
       - description: Used web standards for optimised accessibility and
             standards compliance
@@ -222,8 +232,9 @@ partials:
         importance: 2
       - description: Worked to television transmission critical deadlines
         importance: 2
-      - description: Represented Children’s in board meetings regarding the
-            development of <a href="https://bbc.co.uk/iplayer">iPlayer</a>
+      - description: Represented the Children’s department in board meetings
+            regarding the development of
+            <a href="https://bbc.co.uk/iplayer">iPlayer</a>
         importance: 2
       - description: Member of the CBeebies Accessibility working group
         importance: 2
@@ -333,10 +344,12 @@ partials:
     start_date: 2001
     end_date: 2006
   description: >-
-    I attended Bournemouth University on a part-time basis over a period of five
-    years, whilst working for Serco. The course started with a two-year HNC in
-    Computing, followed by a one year top-up to HND, followed by a two-year
-    top-up to BSc (Hons), for which I received a 2:1.
+    I attended <a href="https://www1.bournemouth.ac.uk/">Bournemouth University
+    </a> on a part-time basis over a period of five years, whilst working for
+    <a href="https://serco.com">Serco</a> as a Junior Software Engineer
+    (September 2011–August 2008). The course started with a two-year HNC in
+    Computing, followed by a one year top-up to HND, then a two-year top-up to
+    BSc (Hons), for which I received a 2:1.
 - partial: interests
   title: Interests
   importance: 2
@@ -354,11 +367,13 @@ partials:
   - name: Making
     description: >-
       I've always enjoyed making things, particularly with wood. With building
-      websites being so transient, it's a great to make something tangible,
-      long-lasting and useful in the analog world. I recently took a break from
-      full-time work and spent a day a week with a friend,
+      websites being so transient, it's a great way to make something tangible,
+      long-lasting and useful in the analog world. I recently reduced my
+      full-time hours for a few months and spent a day a week with a friend,
       <a href="https://www.mwrobinson.co.uk/">Mike Robinson</a>, who makes
-      high-end bespoke furniture.
+      high-end bespoke furniture. Read my
+      <a href="https://p.ota.to/blog/grow-your-own-will-thomson/">blog post</a>
+      to find out more.
   - name: Baking
     description: >-
       Last year I attended the excellent
