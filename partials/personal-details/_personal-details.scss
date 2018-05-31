@@ -54,7 +54,7 @@
       position: relative;
 
       .personal-details__tooltip {
-        background: $color-text;
+        background: $color-5;
         border-radius: 4px;
         color: $color-text-light;
         content: attr(data-tooltip);
@@ -65,10 +65,11 @@
         right: 0;
         top: 38px;
         transition: opacity .3s ease-in;
+        visibility: hidden;
         white-space: nowrap;
 
         &::after {
-          background: $color-text;
+          background: $color-5;
           content: '';
           height: 10px;
           position: absolute;
@@ -82,6 +83,7 @@
       &:hover {
         .personal-details__tooltip {
           opacity: 1;
+          visibility: visible;
           z-index: 1;
         }
       }
