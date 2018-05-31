@@ -82,6 +82,7 @@
       &:hover {
         .personal-details__tooltip {
           opacity: 1;
+          z-index: 1;
         }
       }
     }
