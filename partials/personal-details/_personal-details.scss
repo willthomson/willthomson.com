@@ -58,11 +58,13 @@
         border-radius: 4px;
         color: $color-text-light;
         content: attr(data-tooltip);
-        display: none;
+        display: block;
+        opacity: 0;
         padding: 8px;
         position: absolute;
         right: 0;
         top: 38px;
+        transition: opacity .3s ease-in;
         white-space: nowrap;
 
         &::after {
@@ -79,7 +81,7 @@
 
       &:hover {
         .personal-details__tooltip {
-          display: block;
+          opacity: 1;
         }
       }
     }
