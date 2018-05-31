@@ -359,14 +359,14 @@ partials:
   interests:
   - name: Internet
     description: >-
-      <p>I made my first website in 1996, aged 13, hosted on
+      I made my first website in 1996, aged 13, hosted on
       <a href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities">GeoCities</a> and
       was hooked straight away. I thought it was incredible to have published
       something that anyone in the world could see, and made sure it was the
       best it could be, with animated GIFs, tiled backgrounds and as many
       colours as possible. It wasn't long before I discovered JavaScript, and my
       first scripts were to break out of the GeoCities advertising frames
-      &#128064; and to implement rollover images.</p>
+      &#128064; and to implement rollover images.
   - name: Making
     description: >-
       I've always enjoyed making things, particularly with wood. With building
@@ -382,5 +382,5 @@ partials:
       Last year I attended the excellent
       <a href="https://e5bakehouse.com/classes/bread/">Sourdough Essentials</a>
       class at the <a href="https://e5bakehouse.com/">E5 Bakehouse</a>, and I've
-      been baking every week since. It's an excellent introduction and
-      thoroughly recommend it.
+      been baking ever since. It's an excellent introduction and thoroughly
+      recommend it.
