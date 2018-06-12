@@ -17,7 +17,7 @@ partials:
   title: Personal Details
   profile_pic: /static/images/avatar.jpg
   profile_pic_2x: /static/images/avatar_2x.jpg
-  email: will.thomson@gmail.com
+  email: will@edaptive.co.uk
   phone: +44 7795 078235
 - partial: work-experience
   title: Work Experience
