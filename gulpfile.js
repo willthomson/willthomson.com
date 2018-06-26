@@ -19,7 +19,7 @@ const config = {
     },
   },
   SASS_SOURCE_DIR: './source/sass/composite/**/*.scss',
-  SASS_SOURCES: [ './partials/**/*.scss', './source/sass/composite/**/*.scss' ],
+  SASS_SOURCES: [ './partials/**/*.scss', './source/sass/**/*.scss' ],
   SASS_OUT_DIR: './dist/css/composite/',
 };
 
