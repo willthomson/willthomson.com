@@ -81,7 +81,7 @@ partials:
       - description: Consulted in <a href="https://www.gv.com/sprint/">design
             sprints</a> and other rapid <strong>prototyping</strong>
         importance: 2
-      - description: Prepared projects for security and code reivews, carried
+      - description: Prepared projects for security and code reviews, carried
             out by the client's expert teams who check for XSS and other
             vulnerabilities, documentation quality and code style guide
             compliance.
