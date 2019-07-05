@@ -65,4 +65,3 @@ deployments:
       fields:
       - name: Cache-Control
         value: "max-age=31536000"
-
