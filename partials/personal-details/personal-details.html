@@ -44,7 +44,7 @@
 
      {% if partial.phone %}
       <li class="personal-details__social-item" data-tooltip>
-        <a title="Phone number" href="tel:{{ partial.phone }}">
+        <a title="Phone number" href="tel:{{ partial.phone|replace(" ", "") }}">
           <img alt="Phone" src="{{ g.static('/static/images/phone.svg').url.path }}">
         </a>
         <span class="personal-details__tooltip">{{ partial.phone }}</span>
