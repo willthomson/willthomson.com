@@ -1,0 +1,523 @@
+{
+  "concrete": {
+    "/": {
+      "options": {},
+      "value": {
+        "hashed": "d53b963dd86ef44c724bdccc27849b28240b19e83e4783ed658d006d4448b0fb",
+        "kind": "doc",
+        "meta": {
+          "collection_path": "/content/pages",
+          "locale": "en",
+          "pod_path": "/content/pages/home.yaml"
+        },
+        "pod_path": "/content/pages/home.yaml"
+      }
+    },
+    "/css/composite/global-c54abfe8bda8068ccb9958ffb640dad3fbc9c34960dfe26a3d94a1d1bdd0fbeb.min.css": {
+      "options": null,
+      "value": {
+        "hashed": "c54abfe8bda8068ccb9958ffb640dad3fbc9c34960dfe26a3d94a1d1bdd0fbeb",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": true,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/dist/css/composite/global.min.css",
+          "static_filter": {}
+        },
+        "pod_path": "/dist/css/composite/global.min.css"
+      }
+    },
+    "/css/composite/home-1d27bcee65a5ac4322300d53518207282b139f70d94a946c5f64189492f67db3.min.css": {
+      "options": null,
+      "value": {
+        "hashed": "1d27bcee65a5ac4322300d53518207282b139f70d94a946c5f64189492f67db3",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": true,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/dist/css/composite/home.min.css",
+          "static_filter": {}
+        },
+        "pod_path": "/dist/css/composite/home.min.css"
+      }
+    },
+    "/js/composite/global-cf2be275bc6c1a73906e04fb2e69977559c9b3b10452ed39139ca51e63fbdc9d.min.js": {
+      "options": null,
+      "value": {
+        "hashed": "cf2be275bc6c1a73906e04fb2e69977559c9b3b10452ed39139ca51e63fbdc9d",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": true,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/dist/js/composite/global.min.js",
+          "static_filter": {}
+        },
+        "pod_path": "/dist/js/composite/global.min.js"
+      }
+    },
+    "/js/composite/home-77dbf62bb62755519104dd3b4672d3737074e2f2063ad65d20bc9557b7d2f56a.min.js": {
+      "options": null,
+      "value": {
+        "hashed": "77dbf62bb62755519104dd3b4672d3737074e2f2063ad65d20bc9557b7d2f56a",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": true,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/dist/js/composite/home.min.js",
+          "static_filter": {}
+        },
+        "pod_path": "/dist/js/composite/home.min.js"
+      }
+    },
+    "/sitemap.xml": {
+      "options": null,
+      "value": {
+        "hashed": null,
+        "kind": "sitemap",
+        "meta": {
+          "collections": null,
+          "locales": null,
+          "path": "/sitemap.xml",
+          "template": null
+        },
+        "pod_path": null
+      }
+    },
+    "/static/images/avatar.jpg": {
+      "options": null,
+      "value": {
+        "hashed": "489bbdddad345323ae0682aee715b9bbf3841c89046ad12689b821d56519b70e",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/avatar.jpg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/avatar.jpg"
+      }
+    },
+    "/static/images/avatar_2x.jpg": {
+      "options": null,
+      "value": {
+        "hashed": "2b8b8ff734495d2fc36eed083c032e1ae80a637403aaa38a0c125a2e1cafe2b3",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/avatar_2x.jpg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/avatar_2x.jpg"
+      }
+    },
+    "/static/images/email.svg": {
+      "options": null,
+      "value": {
+        "hashed": "3a1808fb3bda9536bd8683916e4eb7e9832883d7539c229b768f7e08591d15c5",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/email.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/email.svg"
+      }
+    },
+    "/static/images/favicon.png": {
+      "options": null,
+      "value": {
+        "hashed": "27965c644b09ff4753ee70b55af558cc5125c549ac19df59122b830918775afd",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/favicon.png",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/favicon.png"
+      }
+    },
+    "/static/images/github.svg": {
+      "options": null,
+      "value": {
+        "hashed": "209bab5c2284f1582f2b17b8625cda0f488cd8424065d5ee85ce3e6c684d2963",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/github.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/github.svg"
+      }
+    },
+    "/static/images/linkedin.svg": {
+      "options": null,
+      "value": {
+        "hashed": "b7715c799fee76899fec08708ca522dd1e0d2e836735703838d4ea871c075e24",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/linkedin.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/linkedin.svg"
+      }
+    },
+    "/static/images/logo.jpg": {
+      "options": null,
+      "value": {
+        "hashed": "7247ccba275ad2f939696bcd19ea223869305f1f2858883e4e10fcce7f8dc9c2",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/logo.jpg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/logo.jpg"
+      }
+    },
+    "/static/images/logos/bbc.svg": {
+      "options": null,
+      "value": {
+        "hashed": "c6704ef70526bd731eb26eb746fb66d261acb06f2c5982c48fcf258a0a8bc144",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/logos/bbc.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/logos/bbc.svg"
+      }
+    },
+    "/static/images/logos/bournemouth-university.svg": {
+      "options": null,
+      "value": {
+        "hashed": "5b2a5afbe35f9a5771d5cb51c7f8560d7e9a0c31e36b581bb0d9a045066e7c3c",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/logos/bournemouth-university.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/logos/bournemouth-university.svg"
+      }
+    },
+    "/static/images/logos/potato.svg": {
+      "options": null,
+      "value": {
+        "hashed": "683f9d6a727145ded0ac4f6415b24bba731fbfc46cbee0d3a1387cf0db68da31",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/logos/potato.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/logos/potato.svg"
+      }
+    },
+    "/static/images/logos/serco.svg": {
+      "options": null,
+      "value": {
+        "hashed": "d6060f4bb45451c0f11dbf34d47f134df45b4fb28048e8f497de466f36db8b75",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/logos/serco.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/logos/serco.svg"
+      }
+    },
+    "/static/images/logos/yahoo.svg": {
+      "options": null,
+      "value": {
+        "hashed": "7f4c8026b625e5b0ab1db8b63b0dd316c7f9ea7807f7da6125c70d8cfbaa9379",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/logos/yahoo.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/logos/yahoo.svg"
+      }
+    },
+    "/static/images/phone.svg": {
+      "options": null,
+      "value": {
+        "hashed": "b2ea347f11a3afe926295a5b8924a9140503b808a11595adfcb81ced44b099cc",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/phone.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/phone.svg"
+      }
+    },
+    "/static/images/twitter.svg": {
+      "options": null,
+      "value": {
+        "hashed": "27fb213382cb5057c4783c2b068728cd8b20fc5129c2d44b310786e3c1df63a5",
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "locale": null,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "pod_path": "/static/images/twitter.svg",
+          "static_filter": {}
+        },
+        "pod_path": "/static/images/twitter.svg"
+      }
+    }
+  },
+  "dynamic": {
+    "/": {
+      "options": {},
+      "value": {
+        "hashed": "d53b963dd86ef44c724bdccc27849b28240b19e83e4783ed658d006d4448b0fb",
+        "kind": "doc",
+        "meta": {
+          "collection_path": "/content/pages",
+          "locale": "en",
+          "pod_path": "/content/pages/home.yaml"
+        },
+        "pod_path": "/content/pages/home.yaml"
+      }
+    },
+    "/css/*": {
+      "options": null,
+      "value": {
+        "hashed": null,
+        "kind": "static",
+        "meta": {
+          "fingerprinted": true,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "path_format": "/css/",
+          "source_formats": [
+            "/dist/css/"
+          ],
+          "static_filter": {
+            "ignored": [],
+            "included": []
+          }
+        },
+        "pod_path": null
+      }
+    },
+    "/js/*": {
+      "options": null,
+      "value": {
+        "hashed": null,
+        "kind": "static",
+        "meta": {
+          "fingerprinted": true,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "path_format": "/js/",
+          "source_formats": [
+            "/dist/js/"
+          ],
+          "static_filter": {
+            "ignored": [],
+            "included": []
+          }
+        },
+        "pod_path": null
+      }
+    },
+    "/static/*": {
+      "options": null,
+      "value": {
+        "hashed": null,
+        "kind": "static",
+        "meta": {
+          "fingerprinted": false,
+          "localization": null,
+          "localized": false,
+          "path_filter": {
+            "ignored": [
+              "^.*/\\.[^/]*$"
+            ],
+            "included": []
+          },
+          "path_format": "/static/",
+          "source_formats": [
+            "/static/"
+          ],
+          "static_filter": {
+            "ignored": [],
+            "included": []
+          }
+        },
+        "pod_path": null
+      }
+    }
+  }
+}
