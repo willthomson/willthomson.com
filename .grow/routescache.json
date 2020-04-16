@@ -4,7 +4,7 @@
       "/": {
         "options": {},
         "value": {
-          "hashed": "f77c671eb5d388cb4bb2965de4aabe9a50b31d97c1b82c9db85e038cece07cff",
+          "hashed": "1f0b76c9c68dd49d07937584eec6b4053bb12b2247dcded25691084983b61270",
           "kind": "doc",
           "meta": {
             "collection_path": "/content/pages",
@@ -440,7 +440,10 @@
             "source_formats": [
               "/dist/css/"
             ],
-            "static_filter": {}
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
           },
           "pod_path": null
         }
@@ -464,7 +467,10 @@
             "source_formats": [
               "/dist/js/"
             ],
-            "static_filter": {}
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
           },
           "pod_path": null
         }
@@ -503,7 +509,10 @@
             "source_formats": [
               "/static/"
             ],
-            "static_filter": {}
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
           },
           "pod_path": null
         }
