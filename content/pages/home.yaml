@@ -1,6 +1,7 @@
 $path: /{root}/
 $order: -1
-description: Experienced technical lead and frontend developer based in London
+description: >-
+    Experienced technical lead and frontend web developer based in London.
 
 composite_files:
 - home
@@ -8,8 +9,8 @@ composite_files:
 hero:
   title: <span>W</span>ill Thomson
   subtitle: >-
-      Frontend developer based in London with many years of experience in
-      managing full-stack teams and projects, running on cloud platforms and
+      Freelance frontend developer based in London with many years of experience
+      in managing full-stack teams and projects, running on cloud platforms and
       serving huge amounts of traffic.
 
 partials:
@@ -23,9 +24,16 @@ partials:
   title: Work Experience
   show_count: 3
   jobs:
+  - company: Blinkk
+    start_date: Aug 2018
+    end_date: present
+    job_title: UX Developer
+    url: https://blinkk.com/
+    logo_url: /static/images/logos/blinkk.png
+    location: Remote (freelance)
   - company: Potato
     start_date: Jul 2010
-    end_date: present
+    end_date: Jul 2018
     job_title: Lead Developer
     url: https://p.ota.to/
     logo_url: /static/images/logos/potato.svg
@@ -36,7 +44,7 @@ partials:
           founders in building a world class development team, with quality at
           its core.
       details:
-      - description: Grew from 4 to 100+ (70+ developers)
+      - description: Grew from 4 to 100+ people (70+ developers)
         importance: 2
       - description: Conducted hundreds of <strong>interviews</strong>
         importance: 2
