@@ -16,8 +16,8 @@ hero:
 partials:
 - partial: personal-details
   title: Personal Details
-  profile_pic: /static/images/avatar.jpg
-  profile_pic_2x: /static/images/avatar_2x.jpg
+  profile_pic: /static/images/avatar.webp
+  profile_pic_2x: /static/images/avatar_2x.webp
   email: will@edaptive.co.uk
   phone: +44 7795 078235
 - partial: work-experience
@@ -29,7 +29,7 @@ partials:
     end_date: present
     job_title: UX Developer
     url: https://blinkk.com/
-    logo_url: /static/images/logos/blinkk.png
+    logo_url: /static/images/logos/blinkk.webp
     location: Remote (freelance)
   - company: Potato
     start_date: Jul 2010

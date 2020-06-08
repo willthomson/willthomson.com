@@ -3,7 +3,7 @@
   {% for job in partial.jobs %}
     <div class="work-experience__job{% if loop.index > partial.show_count %} work-experience__job--hidden{% endif %}">
       {% if job.logo_url %}
-        <a href="{{ job.url }}">
+        <a href="{{ job.url }}" aria-label="{{ job.company }}">
           <img class="work-experience__job-logo" src="{{ g.static(job.logo_url).url.path }}" alt="{{ job.company }} logo">
         </a>
       {% endif %}
