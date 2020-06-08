@@ -22,7 +22,7 @@ partials:
   phone: +44 7795 078235
 - partial: work-experience
   title: Work Experience
-  show_count: 3
+  show_count: 4
   jobs:
   - company: Blinkk
     start_date: Aug 2018
